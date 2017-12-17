@@ -1,0 +1,15 @@
+
+In Windows (command prompt) you can use CertUtil, here is the syntax:
+
+CertUtil [Options] -hashfile InFile [HashAlgorithm]
+
+for syntax explanation type in cmd:
+
+CertUtil -hashfile -?
+
+example:
+
+ CertUtil -hashfile C:\myFile.txt MD5
+
+
+default is SHA1 it supports: MD2, MD4, MD5, SHA1, SHA256, SHA384, SHA512. Unfortunately no CRC32 as Unix shell does.
