@@ -1,0 +1,22 @@
+On windows 7 you should configure the correspondent adapters.
+
+Go to control panel --> network connections 
+On the left tab select "edit adapter settings"
+
+Select the wireless adapter, right click, properties
+
+From the menu select "internet protocol version 4" then properties and then 'advanced'
+
+On the bottom of the windows uncheck 'automatic metric'
+
+Then insert a number starting from "2".
+You will insert here a number that is lower than the number that you will insert with the same procedure in the wired connection. 
+For example here you can insert "3"
+Then apply everything.
+
+Now do the same for the wired adapter (right click, properties,...)
+In 'Automatic Metric' insert "4"
+
+Then apply 
+
+Now both wired and wireless connection should work properly.
