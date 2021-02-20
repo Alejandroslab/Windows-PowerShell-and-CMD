@@ -7,7 +7,10 @@ for syntax explanation type in cmd:
 
 CertUtil -hashfile -?
 
-example:
+
+
+
+example(checking the hash for MD5):
 
  CertUtil -hashfile C:\myFile.txt MD5
 
@@ -16,3 +19,5 @@ or
 certUtil -hashfile (name of file. drag your file here) SHA256
 
 default is SHA1 it supports: MD2, MD4, MD5, SHA1, SHA256, SHA384, SHA512. Unfortunately no CRC32 as Unix shell does.
+
+you can also drag your file so you don't have to write the full paht!
