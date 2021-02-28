@@ -1,0 +1,14 @@
+Launch as Administrator PowerShell
+
+then just run this:
+
+Add-WindowsCapability -Online -Name OpenSSH.Client*
+
+You will save a lot of time trying to enable ssh from menus...
+
+
+after enabling ssh you will be able to connect to you servers within PowerShell but also
+Ubuntu if you have installed it like a subsystem!
+
+
+This means that you can connect even with 'platformio' terminal inside Atom.
