@@ -11,4 +11,6 @@ after enabling ssh you will be able to connect to you servers within PowerShell 
 Ubuntu if you have installed it like a subsystem!
 
 
-This means that you can connect even with 'platformio' terminal inside Atom.
+This means that you can connect even with 'platformio' terminal inside Atom (enabling Powershell)
+
+Git Bash with ssh seems to not work properly (it freezes after right after the connection)
