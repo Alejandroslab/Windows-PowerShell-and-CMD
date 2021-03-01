@@ -1,0 +1,7 @@
+cd folder
+
+to change directory
+
+as in Unix like systems if you a folder with empty space in the title you should add the single quotes ''
+
+cd 'folder with spaces'
