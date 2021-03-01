@@ -5,3 +5,10 @@ to change directory
 as in Unix like systems if you a folder with empty space in the title you should add the single quotes ''
 
 cd 'folder with spaces'
+
+
+like
+
+cd 'C:\\Users\MY USERNAME\Documents'
+
+as the path contains spaces, single quotes must be implemented
