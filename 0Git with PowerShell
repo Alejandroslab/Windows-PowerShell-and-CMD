@@ -2,3 +2,5 @@ one quick way to update the repo with powershell:
 
 
 git add .; git commit -m "Update"; git push
+
+it will stage the changes then commit with the message (mandatory) "Update" and it will push it to the server
