@@ -1,0 +1,15 @@
+The commands are pretty similar to Linux
+
+
+mkdir newfolder
+
+
+rmdir newfolder
+
+if the folder has children:
+
+rmdir -r newfolder
+
+if you need to force remove:
+
+rmdir -r -Force newfolder
