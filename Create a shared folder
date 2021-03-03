@@ -1,0 +1,14 @@
+In windows create a new folder, right click then go to 'Sharing'
+
+Click on 'Share..'
+
+In the textbox type 'Everyone'
+
+Doing that everyone in your lan network will be able to access the folder.
+
+REMEMBER! You internet connection should be set as 'Private Netwokr'!!
+
+If it is set as 'Public Network' you will not be able to access to the shared folder!
+
+go to wifi on the right side of the taskbar, select your connections, click on 'Properties' and you will be able to change
+from 'Public network' to 'Private Netwokr'
