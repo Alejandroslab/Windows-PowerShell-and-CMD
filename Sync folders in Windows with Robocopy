@@ -1,0 +1,21 @@
+Open PowerShell
+with ROBOCOPY you can sync two folders (in this case test1 and test2)
+it comes already installed in widnows
+
+
+ROBOCOPY "Test1" "Test2" /E /ZB /XJ /FFT /MT /R:2 /W:5 /V /MON:1 /TEE
+
+
+/E      Copy subdirectories, including empty ones.
+/ZB     Use restartable mode; if access denied use backup mode.
+/XJ     Exclude junction points. (normally included by default).
+/FFT    Assume FAT file times (2-second granularity).
+/MT     Do multi-threaded copies with 8 threads.
+/R:2    Number of retries on failed copies.
+/W:5    Wait time between retries.
+/V      Produce verbose output, showing skipped files.
+/TEE    Output to console window, as well as the log file.
+/MON:1  Monitor source; run again when more than 1 change seen.
+
+/XF [files]  Exclude files matching given names/paths/wildcards.
+/XD [dirs]   Exclude directories matching given names/paths.
