@@ -1,0 +1,36 @@
+As in Powershell a lot of linux commands work you can use
+
+$pwd to insert the current path as text
+
+this will be useful in order to count files, folder and folder sizes
+
+
+
+to calculate folder sizes:
+
+Get-ChildItem $pwd -Recurse | Measure-Object -Property Length -Sum
+
+this will calculate all the size consdering even the subfolders (see recurse option)
+
+to get the number of files:
+
+Get-ChildItem $pwd -Recurse | Measure-Object
+
+
+you can even omit pwd if you are working in the folder that you want to calculate the size
+__________________________________
+
+in this case i want to calculate the size of a folder with a lot of subfolders, exlcuding from the
+computation two folders
+
+first go to your folder with cd
+
+then
+
+Get-ChildItem -Exclude firstfolder, 'Second folder' -Directory | Get-ChildItem -Recurse | Measure-Object -Property Length -Sum
+
+this code will sum all the sizes of the folder excluding 2 folders
+
+Noe the piping '|'. First it excludes the folders then
+it will do the recursive search without those folders
+then it will finally perform the calculation.

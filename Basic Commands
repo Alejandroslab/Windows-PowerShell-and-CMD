@@ -1,11 +1,20 @@
+In PowerShell some commands are similar to linux
+like ls, pwd etc..
+
+more specifically powershell create alias to its own command
+
 dir
 
 or
 
 ls
 
-to list all the folders
+to list all the folders (ls will be linked to Get-ChildItem)
 
 to clear the terminal just type
 
 clear
+
+
+in Powershell you will be able to copy and paste easily
+with ctrl+a, ctrl+c, Ctrl+z as usual

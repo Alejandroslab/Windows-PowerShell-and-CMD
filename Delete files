@@ -1,0 +1,21 @@
+rm -r
+
+works
+
+but the official command is
+
+Remove-Item
+that has also the -Force option
+
+with cloud folders it will not work
+
+therefore the possibile workaround is first moving the file to a non clodu folder
+and then delete it
+
+doing:
+
+Move-Item $CloudDrive\$subFolder $noncloudddrive
+
+Remove-Item $noncloudddrive\$subFolder -Recurse -Force
+
+something like this

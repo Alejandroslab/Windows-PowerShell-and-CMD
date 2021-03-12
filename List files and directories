@@ -1,0 +1,22 @@
+Get-ChildItem -Directory #List only directories
+Get-ChildItem -File #List only files
+
+
+if you want to list except one folder use the syntax
+
+Get-ChildItem -Exclude thefolderyoudontwant -Directory
+
+where thefolderyoudontwant is the name of the folder that will be excluded from listing
+
+remember to put the name. do not use tab autocomplete as it will insert the path of
+that directory and not the name and it will not work.
+
+in the case the the folder you want has spaces in its name just put marks on it
+
+
+Get-ChildItem -Exclude 'My Folder' -Directory
+
+
+if you want to exlude more than one folder just use the comma ','
+
+Get-ChildItem -Exclude thefolderyoudontwant, 'My Folder' -Directory

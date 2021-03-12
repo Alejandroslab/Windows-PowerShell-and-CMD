@@ -5,3 +5,5 @@ ls && sudo apt update
 in PowerShell you will use the symbol ';'
 
 ls; ipconfig
+
+anyways pipe '|' will work
