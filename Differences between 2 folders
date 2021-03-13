@@ -1,0 +1,30 @@
+With robocopy you can also check differences between 2 folder:
+
+robocopy “\\FileShare\SourceFolder” “\\FileShare\ComparisonFolder” /e /l /ns /njs /njh /ndl /fp /log:reconcile.txt
+
+Where
+/e  Recurse through sub-directories (including empty ones)
+/l  Don’t modify or copy files, log differences only
+/fp  Include the full path of files in log (only necessary if you omit /ndl)
+/ns  Don’t include file sizes in log
+/ndl  Don’t include folders in log
+/njs   Don’t include Job Summary
+/njh   Don’t include Job Header
+/log:reconcile.txt   Write log to reconcile.txt (Recreate if exists)
+/log+: reconcile.txt   (Optional variant) Write log to reconcile.txt (Append if exists)
+
+Warning Regarding the /NDL Option
+
+The /NDL option is a handy way to suppress the inclusion of every folder checked (regardless of whether it contains differences) in the log,
+but  because of the way it works it is not a good idea in all circumstances.
+Consider the following before you use /NDL.
+
+    Folders that exist only on source or destination are not logged unless at least one mismatched file is present or a source file is missing on destination.
+    Folders that exist only on the destination are not logged at all regardless of contents.
+
+Therefore if you want to check all difference just omit /ndl option:
+
+robocopy “\\FileShare\SourceFolder” “\\FileShare\ComparisonFolder” /e /l /ns /njs /njh /fp /log:reconcile.txt
+
+
+If you omit the /NDL option, it is necessary to include the /FP option if you want full paths listed for each file.
