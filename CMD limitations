@@ -1,0 +1,5 @@
+cmd will not allow you to change directory to a network folder
+in this way
+
+
+cd \\SERVER\myfolder
