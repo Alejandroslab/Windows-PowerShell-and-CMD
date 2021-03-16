@@ -9,3 +9,5 @@ Set-ExecutionPolicy RemoteSigned
 Tipe "A" and then press Enter!
 
 Now you can run you .ps1 files!
+
+To write scripts you can also use PowerShell ISE 
