@@ -1,0 +1,16 @@
+Sometimes you may need to run your script as administrator
+whenever for example it will change some files or will
+need to access some folders that a normal user cannot
+have access to.
+
+Therefore:
+
+In PowerShell just open you .ps1 script in
+PowerShell run as administrator
+
+in cmd if you want
+to run the script alwyas
+as administrator you have to create a shortcut of the .bat file
+then click right 'Properties', 'Advanced'
+and check
+'Run as administrator'
