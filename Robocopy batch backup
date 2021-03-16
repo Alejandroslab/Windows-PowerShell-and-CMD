@@ -1,0 +1,29 @@
+in a bat file you can also specifiy multiple instances
+of robocopy:
+
+(and you can also add empty lines between commands
+to keep it tidy)
+
+@echo off
+echo Syncing Folders 'myfolder 1' to 'myfolder 2'
+
+ROBOCOPY C:\Users\myuser\myfolder 1"  "\\SERVER\home\networkfolder\myfolder 2" /e /z
+echo Now the other way around: 'myfolder 2' to 'myfolder 1'  /log:logfileout1.txt /tee
+
+echo another syncing:
+
+ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2" "C:\Users\myuser\myfolder 1" /e /z  /log:logfileout2.txt /tee
+
+echo then you can add how many you wish:
+
+robocopy "folder1path" "folder2path" /e /z
+robocopy "folder1path" "folder2path" /e /z
+robocopy "folder1path" "folder2path" /e /z
+robocopy "folder1path" "folder2path" /e /z
+
+echo and so on..
+
+
+echo Sync completed!
+
+pause
