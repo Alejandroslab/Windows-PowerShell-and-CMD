@@ -2,12 +2,22 @@
 echo Syncing Folders 'myfolder 1' to 'myfolder 2'
 ROBOCOPY C:\Users\myuser\myfolder 1"  "\\SERVER\home\networkfolder\myfolder 2" /e /z
 echo Now the other way around: 'myfolder 2' to 'myfolder 1'
+
 ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2" "C:\Users\myuser\myfolder 1" /e /z
 echo Sync complete
 pause
 
 remember! do not put /mir or /purge in option otherwise data in the destination
 folder will be deleted if not present in the source one
+
+Anyways remember that doing this will not delete any folder
+
+this means that
+IF YOU WANT TO DELETE A FILE YOU HAVE TO DELETE IT TWICE:
+once in the source folder and the other one in the destination folder
+
+
+
 
 remmeber! options for robocopy are not case sensitive
 meaning that /e is equal to /E
