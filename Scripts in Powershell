@@ -19,3 +19,6 @@ in cmd extension is usually .bat
 to stop the script press ctrl+c and type 'Y'
 
 If you press up arrow and down arrow command history will work!
+
+in cmd you can also leave some rows empty. nothing will happen
+and the code will be more tidy.
