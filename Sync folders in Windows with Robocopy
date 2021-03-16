@@ -61,6 +61,10 @@ ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2" "C:\Users\myuser\myfolder 1" 
 echo Sync complete
 pause
 
+the good thing about robocopy is also that will copy files with the
+date in which they were created without updating the
+date to the actual date!
+
 
 Now whenever you want to sync your folder you can run this script!
 
