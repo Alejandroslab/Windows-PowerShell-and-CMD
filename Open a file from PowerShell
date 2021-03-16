@@ -1,0 +1,7 @@
+You can open a file with the command:
+
+Invoke-Item myfile.txt
+
+you can also use a shortcut that is 'ii':
+
+ii myfile.txt
