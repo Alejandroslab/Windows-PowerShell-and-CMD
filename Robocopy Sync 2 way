@@ -16,7 +16,9 @@ this means that
 IF YOU WANT TO DELETE A FILE YOU HAVE TO DELETE IT TWICE:
 once in the source folder and the other one in the destination folder
 
-
+REMEMBER!
+if the destination folder does not exist
+robocopy will create the folder!
 
 
 remmeber! options for robocopy are not case sensitive
