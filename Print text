@@ -1,0 +1,5 @@
+echo "Hello!"
+
+in powershell could also be:
+
+Write-Host "Hello!"
