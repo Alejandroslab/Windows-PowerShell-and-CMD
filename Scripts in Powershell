@@ -1,1 +1,11 @@
 The extension is .ps1
+
+To allow powershell scripts to run in your pc
+
+in powershell as administrator run:
+
+Set-ExecutionPolicy RemoteSigned
+
+Tipe "A" and then press Enter!
+
+Now you can run you .ps1 files!
