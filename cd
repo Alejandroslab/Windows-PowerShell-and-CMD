@@ -12,3 +12,16 @@ like
 cd 'C:\\Users\MY USERNAME\Documents'
 
 as the path contains spaces, single quotes must be implemented
+
+_________________________
+
+on the contrary the correct symbol to manage spaces in titles is
+"" and not the single quotes ''
+
+therefore in cmd
+
+cd 'folder with spaces'
+
+will become
+
+cd "folder with spaces"
