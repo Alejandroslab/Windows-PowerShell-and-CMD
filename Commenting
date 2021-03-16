@@ -1,0 +1,20 @@
+In PowerShell:
+
+use '#'
+
+# hi. this is my comment
+
+for block comments use '<# #>' in this way:
+
+<# my loong comment
+
+in more lines
+
+#>
+
+
+_________________________________
+
+In old cmd use 'REM'
+
+REM this is a comment

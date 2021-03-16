@@ -1,0 +1,17 @@
+In PowerShell you user:
+
+$myvariable = Read-Host -Prompt 'Input your variable'
+
+to see your variable then:
+$myvariable
+
+
+_________________________
+in cmd
+
+@echo off
+set /p myvariable="Input your variable"
+
+to see your variable type:
+
+echo %myvariable%
