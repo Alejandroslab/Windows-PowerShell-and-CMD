@@ -1,0 +1,9 @@
+you can define 'user-defined variables':
+
+$myvariable = 'hi'
+
+to see the command just type a concatenation with ';'
+
+$myvariable = 'hi'; $myvariable
+
+';' is like '&' in Linux
