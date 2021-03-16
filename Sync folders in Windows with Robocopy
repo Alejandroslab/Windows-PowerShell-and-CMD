@@ -34,7 +34,7 @@ alternatively you can do
 
 ROBOCOPY "C:\Users\myuser\myfolder" "\\networkshare\networkfolder" /mir /z
 
-where /mir is equivalent to /e and /z
+where /mir is equivalent to /e and /purge
 
 remember! in this way will sync always from source to destionation
 If we change destionation folder it will not be reflected in the source.
@@ -44,12 +44,12 @@ To accomplish the latter you can create a bat in order to sync in this 2-way
 (remember that you can run multiple robocopy at once)
 _________________________________
 
-If you want to create a 2 way sync you can do it manually (first the first
+If you want to create a backup sync you can do it manually (first the first
 way folder1 to folder2 and then folder2 to folder1)
 or you can create a .bat file
 
-Doing this robocopy will mantain the 2 folders perfectly synced
-Deleting files no more available in the folders (thanks to /mir options)
+Doing this robocopy will mantain the destination folder as a backup of the source one
+Deleting files no more available in the source folder (thanks to /mir options)
 
 open notepad and write
 
@@ -78,4 +78,5 @@ REMEMBER: Robocopy cannot do changes if you don't run it as Administrator!
 Robocopy will work even with icloud drive and I think with all the cloud services. (I have tried that)
 the important things is to specify correctly the paths.
 
+REMEMEBER! it does not copy open files
 DOne!
