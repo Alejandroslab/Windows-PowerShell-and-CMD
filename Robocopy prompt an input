@@ -1,0 +1,9 @@
+you can prompt the user to use some paths:
+
+set /p path1="Enter first path to sync: "
+echo "%path1%"
+
+set /p path2="Enter second path to sync: "
+echo %path2%
+
+then you can use them in the robocopy command
