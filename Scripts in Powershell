@@ -10,4 +10,12 @@ Tipe "A" and then press Enter!
 
 Now you can run you .ps1 files!
 
-To write scripts you can also use PowerShell ISE 
+To write scripts you can also use PowerShell ISE
+
+
+________________
+in cmd extension is usually .bat
+
+to stop the script press ctrl+c and type 'Y'
+
+If you press up arrow and down arrow command history will work!
