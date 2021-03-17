@@ -33,8 +33,18 @@ ROBOCOPY C:\Users\myuser\myfolder 1"  "\\SERVER\home\networkfolder\myfolder 2" /
 echo Now the other way around: 'myfolder 2' to 'myfolder 1'  /log:logfileout1.txt /tee
 
 ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2" "C:\Users\myuser\myfolder 1" /e /z  /log:logfileout2.txt /tee
-echo Sync complete
+echo Sync completed
 pause
 
 the /tee option allows to save the log and display it at the same time
 otherwise it will just save it in the log file.
+
+
+___________
+
+if you need to exclude folders from sync just use the /xd option in this way:
+
+ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2" "C:\Users\myuser\myfolder 1" /e /z
+/xd "\\SERVER\home\networkfolder\folder_to_exclude" "\\SERVER\home\networkfolder\another folder" /log:logfileout2.txt /tee
+
+echo Sync completed
