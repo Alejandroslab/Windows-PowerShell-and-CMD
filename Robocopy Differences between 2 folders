@@ -24,7 +24,7 @@ Consider the following before you use /NDL.
 
 Therefore if you want to check ALL differences just omit /ndl option:
 
-robocopy “\\FileShare\SourceFolder” “\\FileShare\ComparisonFolder” /e /l /ns /njs /njh /fp /log:reconcile.txt
+robocopy “\\FileShare\SourceFolder” “\\FileShare\ComparisonFolder” /e /l /ns /njs /njh /fp /log:reconcile.txt /tee
 
 
 If you omit the /NDL option, it is necessary to include the /FP option if you want full paths listed for each file.
