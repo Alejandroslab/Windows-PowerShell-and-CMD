@@ -1,0 +1,9 @@
+First open the app 'Even Viewer'
+then 'Windows Log' and 'System'
+right click on 'System' and then click on 'Filter Current Log'
+
+In the dialog insert the number '225' in the textbox with
+'All Event IDs'
+
+you will see there all the events that will block the
+correct eject of the external HD
