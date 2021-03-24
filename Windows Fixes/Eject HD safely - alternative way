@@ -1,0 +1,36 @@
+If you cannot remove safely the disk as it states that
+a process is still using it (like sihost.exe) then:
+
+
+Open (cmd.exe).
+Type diskpart.
+Type "list disk"
+Find your disk #, and type
+select disk [here the number]
+
+like
+
+select disk 2
+
+Now type:
+
+offline disk
+
+now you will be able to safely eject as usual from the task bar!
+
+DONE!
+
+REMEMBER! the next time you will plug the HD it will stay in
+'offline' mode
+
+therefore you have to do the same process but typing 'online'
+
+another quickier way to turn it online is just open
+
+diskmgmt.msc
+
+(that is called 'Create partions..')
+
+click right on the disk and select 'online'
+
+now the HD will be available
