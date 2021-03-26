@@ -1,0 +1,14 @@
+Open
+launch win+r
+then type
+lusrmgr.msc
+
+click on account:
+
+right click on Administrator
+
+Check 'Account disable'
+
+Clik ok
+
+DONE! (no need to restart)
