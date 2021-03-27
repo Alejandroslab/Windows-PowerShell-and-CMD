@@ -1,0 +1,13 @@
+Open Start
+Type: cmd
+Right click CMD
+Click Run as administrator
+
+At the command prompt, type:
+net user administrator /active:yes
+
+Hit Enter
+
+Close command prompt, restart, then try signing into the Administrator account.
+
+Check if you can download...
