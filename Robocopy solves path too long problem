@@ -1,0 +1,15 @@
+with robocopy you can overcome the
+'path too long' problem in windows!
+
+if you have some skipped files you can run robocopy
+and it will copy all the directories and subdirectories
+to your destionation folder without no issues
+
+It will not replace anything with options /e and /z
+
+robocopy “\\FileShare\SourceFolder” “\\FileShare\DestionationFolder” /e /z
+
+It is safe as I have tested it with a folder with
+path too long and files skipped while copying them with
+
+ctrl+c and ctrl+v
