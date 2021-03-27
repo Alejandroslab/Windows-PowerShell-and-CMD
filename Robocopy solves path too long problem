@@ -13,3 +13,8 @@ It is safe as I have tested it with a folder with
 path too long and files skipped while copying them with
 
 ctrl+c and ctrl+v
+
+REMEMBER! to exit from your sync folders BEFORE launching
+robocopy otherwise it will not copy anything
+
+DONE!
