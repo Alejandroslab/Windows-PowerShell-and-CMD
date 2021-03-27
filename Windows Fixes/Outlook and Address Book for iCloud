@@ -5,7 +5,7 @@ then open outlook
 go to contacts
 right click on iCloud contacts then 'Properties' then
 click on the tab 'Outlook Address Book'
-check the option 'Show this folder as an email address book'
+and check the option 'Show this folder as an email address book'
 
 Choose a name like 'My cloud contacts'
 
@@ -26,3 +26,20 @@ cloud contacts is that insde the Outlook's Contacts section
 you can clean and delete your
 contacts and they will be cleaned and synced with
 iphone!
+______________________________________________
+
+GROUPS
+
+You can also create groups (that essentially
+are folders) within Outlook and they will be
+mirrored in the iphone automatically
+(if you still don't have groups
+they will appear in your Contacts app in the top left corner)
+
+Remember that if you create a new group, if you want to
+see them in the address book you have to click right on
+the group then 'Properties' then
+click on the tab 'Outlook Address Book'
+and finally check the option
+'Show this folder as an email address book' choosing
+a name that you desire (the same process as above)
