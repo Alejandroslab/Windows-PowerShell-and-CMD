@@ -1,0 +1,25 @@
+For signatures
+
+open file explorer and type
+
+%AppData%\Microsoft
+
+now copy the signature folder and paste it in the same location in the new machine
+(backup first your Signature folder)
+
+For rules:
+
+You can try to export Inbox rule via Options -> Export Rules…,
+then in new laptop, try to import the file
+
+
+For Quick Parts,
+
+you may navigate to
+%AppData%\Microsoft\Templates
+
+copy “NormalEmail.dotm” file to the same location in new machine
+to see if it works.
+You could also copy entire Template folder and replace the same folder
+in new machine.
+Always performa a backup first of your original folder
