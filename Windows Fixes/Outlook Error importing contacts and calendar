@@ -1,0 +1,16 @@
+This happens because outlook only had IMAP accounts,
+and the contacts/calendars/tasks were the "Contacts (This PC only)"
+style of folders.
+
+Apple needs to fix their wizard to use those folders
+as the source of outlook data to load into it's merge and sync logic.
+Or even better instead of assuming which contacts/calendars/tasks
+folder and strewing things up have an advanced button that will
+prompt user to select what folder(s) to use from outlook.
+
+To work around is problem:
+
+Create new empty .pst file
+Set it as default data file (File | Account Settings | Data Files Tab | Set as default on new local .pst file)
+Close and reopen outlook to make sure it's default data file/moves everything
+Re-run iCloud Control panel outlook setup wizard.
