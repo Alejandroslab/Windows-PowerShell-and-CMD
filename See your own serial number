@@ -1,0 +1,7 @@
+open regedit
+then go to:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
+
+On the right you will see BackupProductKeyDefault
+with your Windows serial number
