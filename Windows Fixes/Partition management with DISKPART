@@ -1,0 +1,19 @@
+Open cmd
+
+DISKPART
+
+LIST VOLUME
+
+SELECT VOLUME n
+
+with n that is the number of the volume
+
+LIST PARTITION
+one is the main partition the other one is the backup partition
+
+you can delete the partition disk with
+
+DELETE PARTITION OVERRIDE
+
+
+to exit DISKPART simply type EXIT 
