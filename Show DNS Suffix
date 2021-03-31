@@ -1,4 +1,26 @@
 You can view the Full computer name on the System Properties Control Panel applet’s Computer Name page.
 
 The DNS suffix of a computer is the part of the computer’s DNS name that follows the host name element. If you have a computer named mypc.accounting.contoso.com, the host name is mypc and the DNS suffix is accounting.contoso.com.
- 
+
+default suffix is .local
+
+you can also omit the suffix sometimes
+
+DNS can recongize the device and add the suffix automatically
+
+(useful for example in Remote Desktop )
+
+TO CHANGE DNS SUFFIX
+
+
+on start type
+Advanced system settings
+
+Click on tab 'Computer Name'
+Click on change
+Click on more
+and type a suffix in 'primary dns suffix'
+
+leave checked 'Change primary dns suffix when domain membership changes'
+
+remember! hostnames are NOT case sensitive
