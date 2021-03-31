@@ -1,0 +1,19 @@
+for some nas you will need to enable a config:
+
+gpedit.msc ->Computer Configuration->Administrative Templatrd->Network->Lanman Workstation
+
+click on ‘Enable insicure Guest logons’
+
+then you can map your drive or access from network as usual
+
+to map a network drive open your PC:
+
+on the bar of file explorer click on “Map Network Drive”
+
+select a letter and type an IP address in the following way:
+
+\\192.168.1.4
+
+click on browse and choose a folder to mount
+
+type in the nas credentials
