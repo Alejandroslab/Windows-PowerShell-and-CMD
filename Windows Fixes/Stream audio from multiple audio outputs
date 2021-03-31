@@ -1,0 +1,32 @@
+download:
+
+radiodelay, Audio Delay and Virtual Audio Cable
+
+https://www.daansystems.com/radiodelay/
+http://www.fountainware.com/Products/AudioDelay/
+
+You can try the following workaround:
+Install Vitual Audio Cable https://www.vb-audio.com/Cable/index.htm
+
+ALL THIS SOFTWARE IS Free
+
+these procedure will create a virtual cable
+that will reroute your signal to multiple outputs devices.
+it will also add a delay (for bluetooth devices)
+
+1. play music
+2. open radiodelay and set as input CABLE Output
+(the driver is always WASAPI)
+3. open audio router
+click on route on your local device and point
+the external bluetoot device. Click on 'Duplicate'
+and send the signal also to CABLE input cable
+
+4. Now reopen radiodelay and set the Delay
+like 0,21 seconds
+5. set as output device the internal speakers
+and click Play or F5
+
+this will sync music from both the devices
+
+it works with everything except Groove music app (the windows default one)

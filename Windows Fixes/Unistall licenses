@@ -1,0 +1,21 @@
+1. In Command Prompt program, type: slmgr /dlv
+And then press Enter. It will show you the software licensing service window.
+From that window, you will need to copy or write down the “Activation ID” to use in the next step.
+1. Use the “Activation ID” that you have copied in the step #1 to uninstall Windows product key with the following command:
+
+slmgr /upk “activation id”
+
+
+For example, your Activation ID is ABCDEGF then you have to enter:
+slmgr /upk ABCDEGF
+And then press Enter. 
+
+A pop-up will appear with a message: “Uninstalled product key successfully”.
+
+DONE.
+
+Source: https://whatsabyte.com/windows/deactivate-windows-product-key/
+
+On the contrary:
+To install a new product key, you need to type the following command in the elevated command prompt:
+slmgr -ipk your-new-product-key
