@@ -1,0 +1,4 @@
+You can view the Full computer name on the System Properties Control Panel applet’s Computer Name page.
+
+The DNS suffix of a computer is the part of the computer’s DNS name that follows the host name element. If you have a computer named mypc.accounting.contoso.com, the host name is mypc and the DNS suffix is accounting.contoso.com.
+ 
