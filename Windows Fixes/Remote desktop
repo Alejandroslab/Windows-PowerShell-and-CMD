@@ -1,0 +1,25 @@
+In order to access to windows pc from windows first go to settings->system and
+Remote Desktop
+
+Enable remote desktop
+
+Then discover the host name (in order to not have to remmeber the IP). Just  e.g.
+
+Studio
+
+(to discover your hostname open cmd and put 'hostname')
+
+
+Open remote desktop connection on the pc that will control the other one
+
+Insert the host name and click connect
+
+In this case
+
+Studio.local 		(after the hostname always put .local)
+
+Now you have to insert your login credential of the pc that you want to control
+
+WARNIGN! If you remember that you have change in the past your username than it could not work
+
+You just have to put the old username and it will work!

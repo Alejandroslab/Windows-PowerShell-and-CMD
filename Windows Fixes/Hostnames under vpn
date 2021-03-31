@@ -1,0 +1,21 @@
+hostnames will not work under vpn
+
+you can set them in the host file in your client pc
+
+Here’s how you can edit your hosts file without getting the “You don’t have permission to save in this location. Contact the administrator to obtain permission” error.
+Hit the start menu or press the Windows key and start typing Notepad.
+Right-click Notepad and choose Run as administrator.
+
+
+In Notepad, click File then Open… In the File name field, paste the following path in:
+
+
+c:\Windows\System32\Drivers\etc\
+
+Seleziona quindi il file 'hosts' (che non è un file con estensione .txt)
+
+To map a domain, simply add a line based on the examples in the HOSTS file.
+Start with the target IP address, then a space, then the domain name. If you want to block a website, redirect it to 127.0.0.1.
+Don’t put in the # if you want it to take effect.
+Also, remember that www.youtube.com is different than youtube.com.
+You may need to restart your computer for the new HOSTS file to take effect.

@@ -1,0 +1,41 @@
+Hostnames are not case sensitive
+Therefore
+
+hpprinter
+
+will be the same as
+
+HPPRINTER or HPprinter
+
+
+_______________
+the suffix is usually '.local' but can be any word you wish
+(it also can be '.station')
+
+________
+
+when you set static IP remember that you can set it :
+
+- from the router
+you will go in IPV4 and change configuration adding a new static IP
+
+- from the machine
+Usually in the config settings there is the possibility to do that
+
+anyways remember to do that possibly just from one source
+so you will not forget your overall network config
+
+this means  do all the static stuff from router or device by device
+not mix it or you will forget it
+
+change hostname:
+
+It is better to use hostname rather than the IP for readability
+
+ Navigate to the Control Panel.
+ Click the System icon. (If you do not see the System icon, in the upper right corner, switch the view to Large or Small icons).
+ In the "System" window that appears, under the "Computer name, domain and workgroup settings" section, on the right, click Change settings.
+ You will see the "System Properties" window. At the top of the window, click the Computer Name tab.
+ Click Change.... You will see your computer's name listed.
+ In the space marked "Computer Name:", delete the text and enter a new name for your computer.
+Click OK, then OK again, and then close the "System" window.
