@@ -1,0 +1,13 @@
+Open server manager
+
+click on tools and select 'Computer Management'
+
+expand "Local users and groups" then right click on users
+select new user
+
+if you want to set up an administrator user
+right click on the name of an user and select 'properties'
+
+click on member tab, then 'Add'
+in 'Select Groups' type in 'Administrators' and click on
+'Check name'. If the group is found click ok.
