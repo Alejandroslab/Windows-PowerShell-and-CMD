@@ -1,3 +1,6 @@
+TRY TO FIX THIS:
+
+
 param (
 
     # The root directory to perform the pull in
@@ -40,4 +43,4 @@ function Main () {
 }
 
 # Executes the main function
-Main  
+Main
