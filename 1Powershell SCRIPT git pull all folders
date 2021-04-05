@@ -1,3 +1,8 @@
+ONLY FOR WINDOWS
+save this code as .ps1 in your working folder
+with all the repositories inside
+then click on run with PowerShell
+
 Get-ChildItem -Recurse -Depth 2 -Force |
  Where-Object { $_.Mode -match "h" -and $_.FullName -like "*\.git" } |
  ForEach-Object {
@@ -7,4 +12,4 @@ Get-ChildItem -Recurse -Depth 2 -Force |
     cd ../
  }
 
- 
+ it will fetch and pull the code and then will exit PowerShell
