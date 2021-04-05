@@ -1,0 +1,83 @@
+If you have just one partion one windows proceed to shrink
+the volume and create some unallocated space.
+
+In order to do that open 'Disk Management'
+click right on your volume
+and select 'Shrink Volume'
+
+wait for the system to load
+
+Set how much space you want in the unallocated space
+'Enter the amount of space to shrink in MB:'
+
+then click on Shrink.
+Rememebr this size as it could be useful when you will
+install Debian.
+Anyways at the end of the process your disk will be
+shrinked and the unallocated space will appear
+with a black label
+
+
+
+now reboot your windows system!
+and plug the Debian usb
+
+select graphical install and proceed with the configuration
+
+Set the hostname, the password for root
+ a full name (can be also some initials), and username and a password to set an user
+
+
+The most important thing during the installation is the
+partition part
+You can choose (to be faster and make your life easy)
+
+'Guided - use the largest continuous free space'
+
+it will automatically select the largest unallocated
+space that you have previously created in Windows
+
+Now select 'All files in one partition'
+
+and check if everything is correct (see for Example
+the free space (that is indicated with a letter f))
+
+remember also that 2 partions will be created:
+
+the main partition where the classic root folder '/' will be installed
+and the swap partition a rather small partition to make
+it everything work
+
+you will also see your windows disks
+you can recognize them because they are formatted
+with ntfs
+
+remember! primary will be windows partitions
+while Debian will stay as logical
+
+this configuration will perfectly work.
+
+Now click on:
+
+'Finish partitioning and write changes to disk'
+
+confirm clicking yes
+
+now if you have a general Debian usb image
+then it will ask you for which desktop environment you wish
+to be installed
+
+otherwise it will proceed to install
+your Debian version (let's say gnome or cinnamond or kde)
+
+it will then ask you some infos but rather easy to configure
+(like network (choose the wired one if you don't
+know if your wireless adapter will work), keyboard layout, time)
+
+
+finally
+the other important thing is
+to click YES on install GRUB boot loader to the master boot record
+
+this will allow to choose with a menu for debian
+or windows when booting up the system
