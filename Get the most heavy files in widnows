@@ -4,3 +4,7 @@ gci -r| sort -descending -property length | select -first 10 name, length
 
 if you want to display the size in gigabytes:
 gci -r|sort -descending -property length | select -first 10 name, @{Name="Gigabytes";Expression={[Math]::round($_.length / 1GB, 2)}}
+
+display also the folder (and size in megabytes)
+
+Get-ChildItem c:\ -r -ErrorAction SilentlyContinue –Force |sort -descending -property length | select -first 10 name, DirectoryName, @{Name="MB";Expression={[Math]::round($_.length / 1MB, 2)}}
