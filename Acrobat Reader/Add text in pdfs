@@ -1,0 +1,47 @@
+To add text inside acrobat reader DC (the free version)
+
+just go to Tools->Comments->add Text Box
+
+You will be able to create a text box like in Preview in Mac
+
+If you want to resize your font or change it
+just select all your text (ctrl+a) and press
+ctrl+e
+
+a property bar will appear and you will be able to resize your font
+
+____
+
+one more thing:
+
+if you want to enable shortcuts just open
+Preferences->General (the shortcut version is to press:
+alt+e the 'n' )
+
+and check the first option that is
+'use single-keys accelerators to access tools'
+
+now you will be able for example to select the text box tool
+just pressing the 'x' key
+
+other single-key shortcuts:
+
+    T: Edit document text tool (Note: for a scanned, document, Adobe will perform ‘text recognition to allow the document to be editable.)
+    U: Current highlighting tool
+    D : Current drawing markup tool
+    S: Sticky note tool
+    L: Link tool
+    C: Crop tool
+    X: Text box tool
+    J: Add attachment (PDFs with attachments should be viewed with caution. Only open them if you are expecting the document.)
+
+Other Editing Shortcuts
+
+    Shift + Y: Redaction
+    Ctrl + R: Show rulers
+    Ctrl + U: Show grid
+    Shift + U: Cycle through highlighter, underline, or cross out options
+    Shift + D: Cycle through drawing markup tools such as cloud, arrow, line, rectangle, oval, polygon, and pencil eraser
+    Ctrl + Shift + D: Delete pages
+    Ctrl + Shift + I: Insert pages from file
+    Ctrl + Shift + T: Insert blank pages
