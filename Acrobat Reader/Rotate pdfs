@@ -1,0 +1,16 @@
+In Acrobat Reader DC (the free version not the paid one)
+is not possible to rotate a pdf easily (you have to get the paid version)
+
+there is a workaround:
+first go to view->rotate choose clockwise or counterclockwise as you need
+(shorcut ctrl+shift+0 or ctrl+shift+1)
+
+then go to file->Save as
+
+and save your pdf with another name
+
+close your current pdf
+
+and reopoen the renamed and rotated version
+
+done!
