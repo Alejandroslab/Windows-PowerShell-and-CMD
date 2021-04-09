@@ -1,0 +1,30 @@
+the display name is the name that is displayed as sender
+
+like
+
+Mike Contoso
+
+but sometimes you may see:
+
+mike@contoso.com
+
+instead of
+
+Mike Contoso
+
+as the seender of the email.
+
+How to see 'Mike Contoso' instead of 'mike@contoso.com'
+It is not possible.
+it CANNOT be changed in any way in Outlook.
+It can only be changed by the sender
+
+This because the email will send also the name set by the sender as header.
+
+so you CANNOT change it neither with messing with the contacts section
+
+the sender should change in is accounts settings where is state 'Your name:'
+It happens a lot of times that they do not change it.
+Usually when a new account is created the default display name is the email address.
+
+Therefore you will see it like mentioned.
