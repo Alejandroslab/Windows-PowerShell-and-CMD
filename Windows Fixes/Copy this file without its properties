@@ -1,0 +1,10 @@
+Copying or moving a file without some of its properties from an NTFS drive to a FAT drive
+will simply mean that the properties that can’t be transported will be lost,
+but the file itself will remain intact and functional.
+That being the case, it is completely safe for you to, when faced with this popup,
+click on Yes and copy/move the file in question without some of its properties.
+
+The reason why some properties of some files can’t be copied or moved from an NTFS
+drive to a FAT drive is the fact that the NTFS file system is capable of storing some properties
+(such as properties pertaining to ADS and file encryption information) that drives formatted with
+the FAT file system simply can’t store.
