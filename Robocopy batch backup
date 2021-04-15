@@ -4,6 +4,9 @@ of robocopy:
 (and you can also add empty lines between commands
 to keep it tidy)
 
+
+the /e option is to copy all subdirectories the /z option is to restart the sync if something happens (restartable mode)
+
 @echo off
 echo Syncing Folders 'myfolder 1' to 'myfolder 2'
 
