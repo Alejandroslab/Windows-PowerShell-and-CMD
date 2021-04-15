@@ -1,0 +1,2 @@
+it seems that robocopy cannotsync to a NAS shared folder
+it can sync to a nas shared folder only if you create a folder inside of it
