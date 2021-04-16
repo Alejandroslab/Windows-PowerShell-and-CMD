@@ -1,0 +1,4 @@
+ipconfig /renew
+
+allow to release a new IP to the machine.
+it is necessary the admin privileges.
