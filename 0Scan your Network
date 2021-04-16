@@ -1,0 +1,21 @@
+the easisest way to do this is using Angry Ip Scanner
+(foss)
+
+just download the portable version so you don't have to face problems installing
+
+now you can scan your network
+
+in Base IP
+you can set different ip and also different masks
+in 'IP Mask' (the default one is 255.255.255.0)
+
+so this means that you can scan your network even if you are on
+another mask
+
+This is a common case when you set up a VPN
+and you have different IP addresses (because of the different
+mask)
+
+therefore you can scan your netwrok even under a VPN
+and check which devices are turned on and
+which ports are opened.
