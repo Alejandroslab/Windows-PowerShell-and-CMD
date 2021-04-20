@@ -1,0 +1,12 @@
+REMEMBER! In the case you have a Network shared folder:
+
+ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2" "C:\Users\myuser\myfolder 1" /mir /z
+
+this command will not work if the network shared folder has some spaces in the name
+to solve this you have to put a space at the end of the name like this:
+
+ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2 " "C:\Users\myuser\myfolder 1 " /mir /z
+
+you see that 'myfolder 2' is now 'myfolder 2 ' with a space at the end!
+
+Doing this will allow you to sync even for the network shared folders
