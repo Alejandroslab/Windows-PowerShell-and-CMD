@@ -1,0 +1,18 @@
+You can partion when the Windows Installer will ask you
+where you want to install Windows
+select your HD (usually the biggest in size as the other are just some
+recovery partitions)
+
+then click on format (this will erase all your data)
+then click on 'Delete'
+
+now you will get the unallocated space
+Select it and click on 'New'
+Now just specify the amount of space in megabytes to allocate for the installation
+of Windows
+Click 'Apply' and 'OK'
+
+To create additional partitions Click on the remaining unallocated space (but you can do this manually
+later when windows is installed)
+
+then continue with the installation selecting the right HD just created 
