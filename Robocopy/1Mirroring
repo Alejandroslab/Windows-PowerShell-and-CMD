@@ -1,3 +1,6 @@
+Title of robocopy scripts can have spaces in the name
+RUN the scripts as Administrator
+
 REMEMBER! In the case you have a Network shared folder:
 
 ROBOCOPY  "\\SERVER\home\networkfolder\myfolder 2" "C:\Users\myuser\myfolder 1" /mir /z
