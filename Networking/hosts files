@@ -1,2 +1,6 @@
 location:
 C:\\Windows\System32\drivers\etc\
+
+
+to edit it: look for notepad then click right and choose 'Run as Administrator'
+the look for the host file and edit from there

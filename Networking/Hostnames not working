@@ -1,0 +1,11 @@
+Probably this is due to the fact that you have already set
+some hosts in your hosts file that are assigned wrongly (due to e.g. a change in
+the network ip ranges etc..)
+
+therefore check your hosts file
+if there is already any entry just change it as you need it
+then save the hosts file open cmd and run:
+
+ipconfig /flushdns
+
+DONE! now hostnames should work
