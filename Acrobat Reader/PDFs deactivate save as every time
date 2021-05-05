@@ -1,3 +1,11 @@
 click on edit->preferences->protection(advanced)
 
 uncheck 'Enable protected mode at startup'
+
+another thing to try:
+
+Go to Edit > Preferences > General > uncheck Show online storage when saving files > OK.
+
+and untoggle 'preview panel' with shortcut alt+p in File Explorer
+
+after doing this you should be able to save a pdf
