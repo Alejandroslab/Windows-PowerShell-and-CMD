@@ -23,3 +23,9 @@ Now you have to insert your login credential of the pc that you want to control
 WARNIGN! If you remember that you have change in the past your username than it could not work
 
 You just have to put the old username and it will work!
+
+REMEMBER also that the PIN is different than the password even if you have only a local account
+
+Therefore you should type your password rather than your PIN and remember that they could differ.
+
+If it does not work try rebootin your remote machine 
