@@ -20,6 +20,8 @@ Studio.local 		(after the hostname always put .local)
 
 Now you have to insert your login credential of the pc that you want to control
 
+
+
 WARNIGN! If you remember that you have change in the past your username than it could not work
 
 You just have to put the old username and it will work!
@@ -28,4 +30,19 @@ REMEMBER also that the PIN is different than the password even if you have only 
 
 Therefore you should type your password rather than your PIN and remember that they could differ.
 
-If it does not work try rebootin your remote machine 
+If it does not work try rebootin your remote machine
+
+_______________
+edit 19.05.2021
+
+if you still have sign in problems remember that your username coincides with your user in the path:
+
+C:\\Users\MYUSER\
+
+where 'MYUSER' is the user that you have to use in remote desktop to login even if you have changed
+the username in control panel
+
+then you can type your password
+
+REMEMBER: remote desktop will not work if you don't type any password!
+remember to set a password as leaving it blank will not make rdp work!
