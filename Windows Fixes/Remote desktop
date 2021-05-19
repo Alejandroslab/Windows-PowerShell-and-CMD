@@ -46,3 +46,6 @@ then you can type your password
 
 REMEMBER: remote desktop will not work if you don't type any password!
 remember to set a password as leaving it blank will not make rdp work!
+
+REMEMBER! check if your network connection is set as 'Private' and not 'Public' otherwise you may not be able to
+connect
