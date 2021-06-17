@@ -1,0 +1,11 @@
+In Powershell you will use the same commands as in Linux
+
+the difference is that you must indicate the right path whenever you want to upload files. Something like this:
+
+put C:\Users\MyUSER\Desktop\myfile.txt
+
+while using 'put' you can also use -v for verbose or -d for debuggin
+
+to move a file you have to use 'rename' and not 'mv'
+
+rename myfile.txt /myfolder/myfile.txt
