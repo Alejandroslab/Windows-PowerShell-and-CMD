@@ -1,0 +1,20 @@
+When a shutdown occurs it could happen that Outlookl will break and you will not be able to
+e.g. make replies to emails etc
+
+the error is something like:
+
+Outlook has been closed without properly closing your outlook data file (.ost)
+
+
+to fix this:
+
+if you don't use local calendars and have multiple email you can easily fix it
+simply changin the account that 'holds' the .ost data file
+to do that go to 'Account settings'-> 'Data File'-> choose another email account
+
+outlook will warn you that local calendars will not be imported when using another email Account
+just click ok
+
+done!
+
+now it work
