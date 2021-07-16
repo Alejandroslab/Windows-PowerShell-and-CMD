@@ -1,0 +1,29 @@
+To export emails just go to
+
+File > Open & Export > Import/Export
+
+Select Export to a file, and then select Next
+
+Select Outlook Data File (.pst), and select Next (just select the .pst file will allow to import the emails with all the folder structure. If you use csv it will be a mess)
+
+Select the mail folder you want to back up and select Next
+
+Choose a location and name for your backup file, and then select Finish
+
+If you want to ensure no one has access to your files, enter and confirm a password, and then select OK
+
+
+The messages that you keep in a .pst file are no different from other messages. You can forward, reply, or search through the stored messages as you do with other messages.
+
+
+TO IMPORT YOUR FILES
+just follow the same procedure just click on 'Import from a file' then select in which folder you want to import your emails
+
+You can backup just a folder or all your inbox with all its folder
+
+if you import to a folder that has the same subfolders with the same name Outlook will merge
+
+
+FINALLY
+If you choose to 'Open a .pst file' you will not get any email as this will not work
+to see your backupped email and folders you need to use the 'Import' function
