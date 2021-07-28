@@ -1,0 +1,13 @@
+If I'm right, based on my knowledge, the files in channels are stored in SharePoint Online, and the private chat files are stored in the OneDrive Online.
+
+And the storage limits is 2 GB for each user and 10 GB of shared storage across all teams. If you'd like to know how much of the personal space you have used, you can follow my steps to do that:
+
+1.  In your Teams, click the Files in the left bar and select OneDrive, then click the Copy link > SharePoint and copy the URL.
+
+
+
+2.  Open the URL in browser and sign in with your account.
+
+3.  At the top right of the page, select Settings > OneDrive settings.
+
+4.  In the new page, choose More Settings > Storage Metrics. Then you can see the storage you have used.
