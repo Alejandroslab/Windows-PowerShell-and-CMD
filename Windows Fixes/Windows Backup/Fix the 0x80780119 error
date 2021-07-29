@@ -1,0 +1,60 @@
+
+This error regards the Windows Backup functionality that hangs stating this error code.
+
+The error occurs when there is no space for the Shadow Copy
+
+It happens when your System Reserved partitions has less than 50 mb of free space (available space)
+
+The minimun and recommended space rules for your disks:
+If Volume size    Then free space must be at least
+<500MB	           50MB
+>500MB	           320MB
+>1GB	             1GB
+
+You may need to clean the change journal although it could not be activated
+to do that:
+first assign the letter 'Q' to your System Reserved Partition
+then open cmd with admin privileges and type
+
+fsutil usn deletejournal /N /D Q:
+
+
+After run it you should be able to run your backup
+
+
+OTHERWISE:
+
+You must extend the System Reserved partition
+
+First shrink your main disk of about 100 mb (the max size the System Reserved must be 349 mb)
+
+Then you must extend the System Reserved partition.
+
+You cannot do that with Disk Management Widnows built-in funcionality
+
+You must use a third party application. I have tested and use the Minitool Partition Wizard.
+
+With that program you can extend the System Reserved Partition and use the new unallocated space
+as extension
+
+It will require to reboot the pc
+
+Now open your cmd with admin privileges and type.
+
+sfc /scannow
+
+This will look for error and try to repair them
+
+after that run:
+
+DISM /Online /Cleanup-Image /RestoreHealth
+
+Once done proceed with these steps.
+-Press Windows key + R
+-Type Services.msc and hit enter.
+-Look for Volume Shadow Copy service and Windows Backup
+-Set them as Automatic.
+
+Restart your computer
+
+Now you should be able to run Windows Backup and create the system image
