@@ -1,0 +1,34 @@
+Windows Server 2019 comes in 3 different editions:
+
+Essentials
+Standard
+Datacenter
+
+Essentials allow to work only with up to 20 users
+
+Standard and Datacenter work with the
+CAL's that are 'Client Access License'
+
+These are licenses that allows to user or Devices
+to connect to you Windows Server Machine:
+
+for the users there are: User CAL's
+for the devices thrre are: Devices CAL's
+
+this licences must be purchased separetely from the
+Windows Server License.
+
+There are also RDS User CAL's that are licenses that
+allow users to connect with Remote Desktop
+
+The user will be able to connect with their account
+directly to the server!
+
+
+Finally the difference between the standard version and the Datacenter one
+are basically linked to some limits regarding virtual machines that
+you can install in your server and that in the Datacenter edition do not exist
+
+This will allow to create more vm's in the Datacenter edition (no limits) and set them
+with specific tasks creating a sort of 'subservers' deployments (that is where
+the name Datacenter comes from)
