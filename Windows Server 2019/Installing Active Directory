@@ -1,0 +1,37 @@
+Open Server Manager
+
+d choose “Add Roles and Features“. This will open the “Add Roles and Features Wizard” which ushers us to the part where we install Active Directory Domain Services.
+
+ Click on next.
+
+ On the “Installation Type”, leave “Role-based or feature-based installation” radio button selected and click on next.
+
+ On this stage titled “Select destination server“, select the server you are to install AD DS and click next. I am going to choose my local server.
+
+
+ The previous step will lead you to the next page as shown below. Here, you will see many options with square checklist box against them. As you can guess, we are going to choose “Active Directory Domain Services“.
+
+
+ Immediately you choose that option, a new part comes up. On the page, just click on “Add Features” tab and hit “Next“.
+
+ On the next page after Step 6 titled “Select features“, just hit “Next” to lead you to installations of AD DS.
+
+ As shown below, you will be presented with the next page titled “Active Directory Domain Services“. Here, click on “Next“
+
+ After you have finished installing Active Directory Domain Services, the last step is to promote it to a Domain Controller. Go over to Server Manager where you will notice a yellow exclamation notification beside the “Manage” tab as shown below. Click on it and choose “Promote this server to a domain controller“
+
+
+A new window titled “Active Directory Domain Services Configuration Wizard” as shown below will pop up. We are going to Add a new Forest but in case you would wish to do something different in this Step, you are free to choose the other options. Add your organization’s root domain name. Click on “Next” after you pick your choice.
+
+
+On the Domain Controller options, leave the defaults checked and input your password. After that, click “Next“.
+
+On the next page ( DNS Options ), you will probably see an error on top with the words “A delegation for this DNS server cannot be created because the authoritative parent zone nameserver cannot be found”. Ignore it and click “Next“
+
+On the next page, leave the NetBIOS domain name as default or you can change it as long as it is not longer than 15 characters. Click “Next” after that.
+
+Leave paths as default and click “Next” as shown below.
+
+In this step, the server allows you to review what you have done so far. If you are good with the selections you have done. Hit “Next“.
+
+In this step prerequisites will be validated before Active Directory Domain Services is installed. If you get any errors here, please look at it and fix anything in the previous steps. If all is okay, click “Install“.
