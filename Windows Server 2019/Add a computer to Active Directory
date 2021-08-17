@@ -1,0 +1,30 @@
+Log in to the computer in question with a local administrator account.
+
+Click Start and right-click “Computer.”
+
+Click “Properties.”
+
+Click the “Change settings” link under “Computer name, domain, and workgroup settings.”
+
+Click the “Computer Name” tab.
+
+Click the “Change . . . “ button.
+
+Click the “Domain” radio button and type the name of your Windows domain in the domain field.
+
+Click “OK.” When prompted, enter the username and password of an account that has the right to add computers to the domain.
+Usually, this account must be in the Account Operators, Domain Admins or Enterprise Admins security group.
+You will need to type in the credentials of the Administrator of your Windows Server
+
+Click “OK” again.
+
+Reboot the computer when prompted.
+
+Now opening the Active Directory app on your server, in the Computers folder you will find
+your computer just added.
+
+
+another way to add it is going to 'Settings' 'Users'
+Switch to the ‘Access work or school’ tab.
+Click on Connect.
+A new window will pop up, click on ‘Join this device to a local Active Directory Domain’.
