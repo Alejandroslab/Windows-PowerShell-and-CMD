@@ -1,0 +1,34 @@
+The error ‘An Active Directory Domain Controller for the domain could not be contacted’
+often occurs due to your DNS misconfiguration in which case you will have to change it.
+
+To fix it:
+
+Go the Network and Sharing Center settings by going to the Control Panel and searching for Network and Sharing Center.
+
+In front of the Network you are using, click ‘Ethernet’.
+Once the new window pops up, go to Properties.
+From the list, highlight Internet Protocol Version 4 (TCP/IPv4) and then click Properties.
+Click Advanced and then switch to the DNS tab.
+Under ‘DNS server addresses’, click Add and then type in the IP of your Domain Controller in the window.
+Hit OK on the all the Windows that you have opened and then reboot your system.
+Try joining the domain again.
+
+
+
+______________________
+another solution
+
+In some certain scenarios, the error message pops up due to your DNS services not working properly. This issue can be easily resolved by simply restarting the services. Here’s how to do it:
+
+    Press Windows Key + R to open Run.
+    Type in ‘services.msc’ and then press Enter.
+    From the list of services, locate DNS Client service.
+    Right-click on it and select Restart.
+If you are unable to restart the service, just open an elevated command prompt by pressing Windows Key + X and selecting Command Prompt (Admin) from the list.
+Type in the following command and press Enter:
+
+net stop dnscache
+
+To start it again, type in:
+
+net start dnscache

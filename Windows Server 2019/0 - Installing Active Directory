@@ -18,7 +18,7 @@ d choose “Add Roles and Features“. This will open the “Add Roles and Featu
 
  As shown below, you will be presented with the next page titled “Active Directory Domain Services“. Here, click on “Next“
 
- After you have finished installing Active Directory Domain Services, the last step is to promote it to a Domain Controller. Go over to Server Manager where you will notice a yellow exclamation notification beside the “Manage” tab as shown below. Click on it and choose “Promote this server to a domain controller“
+ After you have finished installing Active Directory Domain Services, the last step is to promote it to a Domain Controller. Go over to Server Manager where you wIill notice a yellow exclamation notification beside the “Manage” tab as shown below. Click on it and choose “Promote this server to a domain controller“
 
 
 A new window titled “Active Directory Domain Services Configuration Wizard” as shown below will pop up. We are going to Add a new Forest but in case you would wish to do something different in this Step, you are free to choose the other options. Add your organization’s root domain name. Click on “Next” after you pick your choice.
