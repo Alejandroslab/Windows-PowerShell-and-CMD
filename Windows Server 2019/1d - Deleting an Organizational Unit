@@ -1,0 +1,8 @@
+If you need to delete an organizational Unit you have to enable 'Advanced Features'
+
+To do that in 'Active Directory users and Computers'
+Click on View-> Advanced Features
+
+Now click right on the OU that you want to delete ->Properties->Object -> Uncheck 'Protect Object from accidental deletion'
+
+Now you can delete you OU

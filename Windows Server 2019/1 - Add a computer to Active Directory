@@ -23,6 +23,9 @@ Reboot the computer when prompted.
 Now opening the Active Directory app on your server, in the Computers folder you will find
 your computer just added.
 
+Now remember that you can drag the computer to any other folder that you want to create (that must be inside your domain) like a group or organizational unit..
+
+
 
 another way to add it is going to 'Settings' 'Users'
 Switch to the ‘Access work or school’ tab.

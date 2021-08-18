@@ -1,0 +1,27 @@
+To be able to restart or shutdown one of your domain pc :
+
+first: be sure that Windows Firewall is not blocking incoming connections
+
+Then open cmd on your server as Adminsitratore type
+
+shutdown /r /m \\hostname
+
+where '\\hostname' is the hostname or name of the client pc that you want to restart
+You can also find them in 'Active Directory Users and Computers'
+
+
+You can also use a polite custom message:
+
+shutdown /m \\hostname  /c "The IT department has initiated a remote restart on your computer"
+
+
+You can also use Powershell
+
+Restart Immediately:
+
+Restart-Computer -ComputerName REMOTE_COMPUTER_NAME -Force
+
+
+Restart 2 computers:
+
+Stop-Computer -ComputerName "Server01", "Server02"

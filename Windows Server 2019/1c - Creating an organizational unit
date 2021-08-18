@@ -1,0 +1,22 @@
+An organizational unit is basically a folder in which you can place
+computers and users
+
+This is properly like a folder and there is no constraint on how many you can create.
+You can also nest them like:
+
+-Department
+  -hr computers
+  -hr users
+  -marketing computers
+  -marketing hr
+
+  Inside any organizational unit you can place your users or computers (that you have added)
+
+To create an Organizational Unit (OU) open 'Active Directory Users and Computers'
+Click once on your Domain on the left panel
+
+THen on the right panel, right click 'New' -> Organizational Unit
+Type a name and click ok
+
+
+  Remember to not place an organizational unit inside the folder 'Domain Controller' as the 'Domain Controller' or 'DC' is always the server and you can get confused

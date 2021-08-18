@@ -1,0 +1,67 @@
+You can install multiple software on multiple computers at once with Group Policy
+
+Before doing this you will need 2 things:
+
+1) a shared folder with full Read-only access (the shared folder can also be placed inside your server)
+2) the .MSI packages that are microsft executables (because the .exe cannot be deployed massively)
+
+1) Regarding the first point just create a folder anywhere in your server called 'Software'
+in which you will place all your .msi packages then click right ->Properties ->Sharing->Advanced Sharing
+Type in 'Share name': 'Software$' where the dollar symbol will allow to hide the folder (the folder will be hidden)
+Then click on permission and be sure that the group 'Everyone ' is there and that has permission 'Read' allowed
+
+Click Ok and close
+
+2) Regarding the .msi packages most programs provide their .msi packages
+In case this is not available you can use the converter from .exe to .msi
+it is called 'MSI Wrapper' from Exemsi. This is totally free (but you can also pay to get more functions. anyways the free version is ok)
+
+Install this programm run it and select your executable
+click next and next (remember to choose the right architecture x86 or x64)
+Leave the rest as default and click next
+On Upgrade code just click on 'Create New'
+You don't need to specifiy Application ID
+The only thing to remember is to place '/S' as argument
+This will allow the installation to be silent (this will allow to install automatically without any need to manage a wizard)
+
+THe last windows 'Before install command line ' and 'after install command line' should be kept empty.
+THen click on build and you will get your .msi
+
+After getting the .msi remmeber to copy or move it to your previously shared folder.
+
+
+Now open 'Group Policy Management'
+
+Select your organizational unit previously created.
+
+Right click ->'Create a GPO in this domain and Link it here..'
+Just type a name you wish
+This will create a policy that basically is a shortcut.
+The real policy will be under the folder 'Group Policy Objects'
+
+Now right click on the policy just created (on the shortcut)
+select 'Edit'
+
+This will open 'Group Policy Management Editor'
+Click on 'Computer Configuration'-> 'Policies' ->'Software Settings'->'Software installation'
+
+Click right on 'Software installation'->'New'->'Package...'
+Now in the bar you should paste the newtork address of your shared folder
+You can find it and copy just clickin right on your shared folder then Properties->Sharing and copy the path under 'Network Path'
+
+Paste it on the bar click 'Open'
+Now you can select your program
+
+Finally click ok leaving the choice on 'Assigned'
+
+DONE!
+
+Now you should restart your client pc and you will be able to get your program
+REMEMBER: you can insert more than one program!
+
+If you cannot see the programs installed just open cmd as Administrator on your local client then type:
+gpupdate /force
+
+Now it will appear a long message stating that the policy has changed
+It will ask to restart just type 'y' (no matter if it is not in capital letter)
+Your client pc will now restart at the end you will see your programs

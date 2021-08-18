@@ -1,0 +1,8 @@
+You can also manage remotely your client pc
+Just click right on the computer and select 'Manage'
+
+if there is an error stating that is impossible to manage because there is no authorization this means that Windows Firewall on your client is blocking the connection
+
+To be sure that this is happening just try to ping your client IP
+
+then disable the firewall only for the Domain. If it starts to work than you have to set some polices on your Firewall
