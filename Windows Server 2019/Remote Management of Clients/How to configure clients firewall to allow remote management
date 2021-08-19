@@ -1,0 +1,36 @@
+With remote management you can manage your clients machine all inside Active directory
+
+As the firewall usually blocks the Windows Server incoming connection you have to find a way to set it up
+It is also most of the time preferable to do that centrally that is
+to set up it within Active Directory
+
+This basically means to set up a Group Policy that will be applied to your OU's
+
+(A temporary solution is just to deactivate Windows Firewall Locally but then it is better to not leave it deaticvated)
+
+The error that shows up when trying to click on 'Manage' on a specific pc is this one:
+
+"Computer cannot be connected. Verify that the network path is correct, the computer is available on the network, and that the appropriate Windows Firewall rules are enabled on the target computer.
+To enable the appropriate rules Windows Firewall rules on the remote computer, open the Windows Firewall with Advanced Security snap-in and enable the following inbound rules:
+COM+ Network Access (DCOM-In)…"
+
+To enable the COM+ Network Access rule (allow the "Remote administration"), on all the computers in the Active Directory:
+open the Server Manager and then from Tools menu, open the Group Policy Management. *
+
+Under Domains, select your domain and then right click at Default Domain Policy and choose Edit.
+
+Then navigate to:
+
+    Computer Configuration\Policies\Administrative Templates\Network\Network Connections\Windows Firewall\Domain Profile
+
+At the right pane, double click at: Windows Firewall: Allow inbound remote administration exception
+
+Check Enabled and click OK.
+
+Close the Group Policy Management editor.
+
+Finally, open Command Prompt as Administrator and give the following command to update the group policy.
+
+    gpupdate /force
+
+DONE!
