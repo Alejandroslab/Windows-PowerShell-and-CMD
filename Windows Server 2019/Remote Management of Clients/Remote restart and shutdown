@@ -2,7 +2,7 @@ To be able to restart or shutdown one of your domain pc :
 
 first: be sure that Windows Firewall is not blocking incoming connections
 
-Then open cmd on your server as Adminsitratore type
+Then open cmd on your server as Adminsitrator type
 
 shutdown /r /m \\hostname
 
