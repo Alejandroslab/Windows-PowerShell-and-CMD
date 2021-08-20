@@ -1,0 +1,8 @@
+winrs -r:PCNAME cmd
+
+You have to set it up first in your client pc with
+
+winrm quickconfig
+
+
+You can also use ssh within windows server to control your other pc's
