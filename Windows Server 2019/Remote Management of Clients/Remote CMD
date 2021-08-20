@@ -6,3 +6,13 @@ winrm quickconfig
 
 
 You can also use ssh within windows server to control your other pc's
+
+another way to do that is to download 'psexec' tools (you will find it in the official microsoft website)
+
+then connect to your machine with:
+
+psexec \\MYMACHINE cmd.exe
+
+
+Remember that when you download psexec you need to move your workign directory with cd to the folder
+in which psexec is located
