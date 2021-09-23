@@ -1,0 +1,23 @@
+CMD > Run as administrator
+    To remove any existing product key (in case you used a trial key), enter and run the command 
+    
+    slmgr.vbs /upk
+    
+    Clear the product key from registry by running 
+    
+    slmgr.vbs /cpky
+    
+    
+    To enter your new product key, use the command: 
+    
+    slmgr.vbs /ipk xxxxx-xxxxx-xxxxx-xxxxx 
+    
+    where the x’s are your actual product key
+    
+    Lastly, activate Windows by entering the command 
+    
+    slmgr.vbs /ato
+    
+    Windows is now activated.
+    
+    (The last command might not be necessary)
