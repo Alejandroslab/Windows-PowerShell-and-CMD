@@ -1,0 +1,64 @@
+First you need to install the OpenVPN ssh server:
+
+Go to the Settings > Apps > Apps and features > Optional features (or run the command ms-settings:appsfeatures)
+
+Click Add a feature, select OpenSSH Server (OpenSSH-based secure shell (SSH) server, for secure key management and access from remote machines), and click Install
+
+You can also use powershell to install it opening with admin priviliges:
+
+Add-WindowsCapability -Online -Name OpenSSH.Server*
+
+To check if it is installed:
+
+Get-WindowsCapability -Online | ? Name -like 'OpenSSH.Server*'
+
+You will see 'installed'
+
+
+Now check the status with:
+
+Get-Service -Name *ssh*
+
+Both services are in a Stopped state and not added to the automatic startup list:
+
+Start-Service sshd
+
+Set-Service -Name sshd -StartupType 'Automatic'
+
+Start-Service ‘ssh-agent’
+
+If this does not work you need to run:
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+
+Finally:
+Start-Service ‘ssh-agent’
+
+Set-Service -Name ‘ssh-agent’ -StartupType 'Automatic'
+
+
+Now allow SSH traffic with this firewall rule:
+
+New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+
+DONE!
+
+to connect:
+
+ssh -p 22 user@hostname
+
+if in the user there are spaces you can type:
+
+ssh -p 22 'my user'@hostaname
+
+where -p 22  indicates that the port is the 22
+
+
+
+
+_______________________________________
+
+
+To run the PowerShell.exe cli instead of cmd.exe shell when logging in via SSH on Windows 10,
+you need to run the following command in Windows 10 (under admin account):
+
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
