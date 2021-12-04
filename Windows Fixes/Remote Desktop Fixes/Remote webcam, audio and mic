@@ -1,0 +1,11 @@
+You can also set the audio, mic and webcam to your remote machine
+Click on 'Show Options'->'Local Resources'
+and set your audio and mic
+
+For the webcam:
+
+open the Remote Desktop Connection application
+
+Click on 'Show Options'->'Local Resources'->'More'
+
+Select 'Video capture devices' and your camera
