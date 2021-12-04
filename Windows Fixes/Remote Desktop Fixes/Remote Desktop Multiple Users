@@ -1,0 +1,8 @@
+To connect to same machine but to another user session
+You MUST indicate the user in the Settings>Remote Desktop> Select Users or something like that
+
+
+If you want to grant access to anyone just select Settings>Remote Desktop> Select Users
+and then type 'Everyone'
+
+this will allow to anyone to access via rdp
