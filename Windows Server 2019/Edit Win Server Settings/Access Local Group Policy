@@ -1,0 +1,6 @@
+When you run 'gpedit' unlike windows 10 you will not
+open the local Group Policy but you will open the
+general Group Policy app that is called Group Policy Management
+
+Now if you want to open the local one you need to double click on the
+'Default Domain Policy'

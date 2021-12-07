@@ -1,0 +1,9 @@
+Type in “Control Panel” and click on it at the top. You will then need to click on “System”.
+
+Click on “Advanced system settings” to the left.
+
+Under the “Performance” section, click “Settings…”.
+
+ click on the “Data Execution Prevention” tab.
+
+We will then select “Turn on DEP for essential Windows programs and services only”. This will help prevent any unnecessary complications when running our desktop software.

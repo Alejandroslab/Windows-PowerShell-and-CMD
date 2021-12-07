@@ -1,0 +1,11 @@
+The shutdown tracker is that feature that will need you to
+explain why you are shutting down windows server
+
+If you want to disable it you have to change it in your local
+Group Policy:
+Go to:
+Computer Configuration->Administrative Templates->System.
+
+Double-click on “Display Shutdown Event Tracker”.
+
+We are going to be selecting “Disabled”, therefore the notification will not be displayed anymore when shutting down your computer. Click “Apply” and “OK” to close.
