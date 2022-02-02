@@ -1,0 +1,7 @@
+@echo off
+title Myscript!
+echo Loading webpages!
+start "" https://www.bloomberg.com/
+start "" https://www.bbc.com/
+say end
+pause
