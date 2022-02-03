@@ -1,0 +1,3 @@
+Open Run command box by pressing Windows logo + R keys. In the Run command field, type shell: startup and then press Enter key to open Startup folder.
+
+Copy and paste the app shortcut from the desktop to this Startup folder and the app will be added to startup.
