@@ -1,0 +1,8 @@
+
+Yes you can add permissions to the exe of the program. 
+Go to the programs folder and look for the exe or as windows says the application. 
+Right click on it and select properties. Go to the security tab and you will see the list of groups, system, administrators, users. 
+Edit users and add the write , read, read & execute. This will allow for other users to use the program. 
+You have to do all this as an Administrator. But not all programs are coded to be able to be used on any user rights other than an administrator though. 
+If that doesn't work then that is more than likely the case and would only run under an admin account.
+ 
