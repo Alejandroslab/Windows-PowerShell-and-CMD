@@ -1,0 +1,10 @@
+just install the exe then
+go to 'Edit the system environment variables'
+
+click on Path browse and select the folder: C:\Program Files\Vim\vim82
+
+or where your gvim.exe is located
+
+done!
+
+click ok and reopen powerhsell (or cmd) and it will work from there
