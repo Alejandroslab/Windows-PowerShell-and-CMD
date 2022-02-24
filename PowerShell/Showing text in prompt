@@ -1,0 +1,10 @@
+Get-Content C:\logs\log01012020.txt
+
+
+You can also move all the content to a variable and use that variable for further processing if that’s something that you want your code to do.
+
+$file_data = Get-Content C:\logs\log01012020.txt
+
+$file_data | Select-Object -First 10
+
+the first 10 lines of the content will be stored in the variable and not the entire content.
