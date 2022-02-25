@@ -2,7 +2,7 @@ first create your script
 
 myscript.ps1
 
-then create a new shortctu in which the command is:
+then create a new shortcut in which the command is:
 
 powershell.exe -f [path]
 
@@ -15,7 +15,7 @@ e.g.
 powershell -f C:\Users\Myuser\Documents\myscript.ps1
 
 finally after creating this shortuct click right and go to properties,
-click on 'Advances'
+click on 'Advanced'
 and check the 'Run as administrator' option
 
 click ok
