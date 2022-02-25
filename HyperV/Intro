@@ -1,0 +1,4 @@
+HyperV is the windows type 1 hypervisor
+
+
+It will create an enviroment in which a vm is installed and then a connection via rdp is provided all out of the box within the application 
