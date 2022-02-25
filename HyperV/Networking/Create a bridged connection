@@ -1,0 +1,21 @@
+Basically a bridged connection is a connection that allow to connect the guest to the same network of the host
+
+To do that open HyperV Manager then on the right you will find
+Virtual Switch Manager
+
+Theoretically we just have to create a Virtual Switch that will allow to redirect the traffic using an existing interface
+
+to do that
+click on 'New virtual network switch'
+select 'External'
+and click on 'Create'
+Now just type in a name you want for the Virtual Swith and select the interface you want to use
+
+Leave it everything as it is and click ok!
+
+done
+
+Now if you have already deployed a VM you can change in settings its switch
+You can do that without having to reboot it
+
+Just enable it in settings and done 
