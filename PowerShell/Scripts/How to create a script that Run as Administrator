@@ -1,0 +1,25 @@
+first create your script
+
+myscript.ps1
+
+then create a new shortctu in which the command is:
+
+powershell.exe -f [path]
+
+or just:
+
+powershell -f [path]
+
+e.g.
+
+powershell -f C:\Users\Myuser\Documents\myscript.ps1
+
+finally after creating this shortuct click right and go to properties,
+click on 'Advances'
+and check the 'Run as administrator' option
+
+click ok
+
+done!
+
+now you will have to run just the shorcut that will invoke the script with elevated privileges
