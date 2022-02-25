@@ -1,0 +1,10 @@
+Create a file with vim
+
+
+vim myscript.ps1
+
+remember to use the extension ps1
+
+To run it, as in linux:
+
+.\myscript.ps1
