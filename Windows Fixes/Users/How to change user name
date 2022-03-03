@@ -1,0 +1,11 @@
+If you have a local account and you want to change the user name (the name that appears when log in in Windows)
+You have to open Computer Management 
+
+go to System Tools > Local users and Groups > Users
+
+Select the user you want to change the name 
+Click right > Properties 
+On the General Tab under Full Name you can change the name 
+
+
+Remember that the user name may not be the same as the user registered in the system (the one you see when open cmd)
