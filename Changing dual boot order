@@ -1,0 +1,6 @@
+Just run msconfig then in the bott tab select the OS you want to set as default and click 'Set as default'
+
+reboot and done!
+
+If you suspend a windows os then when waking up you will not get the dual boot menu but will wake in the right os!
+this is useful if you want to implement wake on lan 
