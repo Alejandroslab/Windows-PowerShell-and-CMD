@@ -1,1 +1,22 @@
-Tet
+Open cmd 
+First get the current edition with:
+
+dism /online /get-currentedition
+
+Then get the possible target editions
+
+
+dism /online /get-targeteditions
+
+Finally set the correct edition (ServerDatacenter or ServerStandard depending on the edition) and type in the product key
+
+dism /online /Set-Edition:ServerDatacenter /productkey:XXXX-XXXX-XXXX-XXXX-XXXX /accepteula
+
+REMEMBER that the product key must be in CAPITAL LETTERS or you will get an error
+
+Finally wait a moment until the end of the process. the cmd may hang for a while..
+
+At the end you will get an 'Error 1068' but everything will be fine 
+
+Reboot your machine and voila!
+
