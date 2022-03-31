@@ -1,0 +1,6 @@
+open "run" 
+or windows + r
+
+then run:
+
+mstsc
