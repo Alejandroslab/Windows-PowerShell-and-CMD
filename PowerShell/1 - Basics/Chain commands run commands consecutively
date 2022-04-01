@@ -1,0 +1,3 @@
+clear; echo "hi"
+
+you can run multiple commands at once with ';' that is the same as "&&" in bashg
