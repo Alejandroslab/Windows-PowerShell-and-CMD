@@ -1,0 +1,19 @@
+Open task scheduler
+
+In the Task Scheduler window, in the “Actions” pane, click “Create Task.”
+
+
+On the “General” tab of the Create Task window, give the new task whatever name you want. We like putting a “z_” before any user-created tasks just so that they’re easier to find later with a quick alphabetical sort. Select both the “Run whether user is logged on or not” option and “Run with highest privileges” options. On the “Configure for” drop-down, select your version of Windows.
+
+
+Next, switch to the “Triggers” tab. Click “New” to create a new trigger.
+
+
+In the New Trigger window, make sure the “Begin the task” dropdown menu is set to “On a schedule.” Set up whatever schedule you like. Here, we’re going with every night at midnight. When you’re done setting up your schedule, click “OK.”
+
+
+Back in the “Create Task” window, switch over to the “Actions” tab and click “New” to create a new action.
+
+
+
+In the “New Action” window, set the “Action” drop-down menu to “Start a program.” Type “shutdown” into the “Program/script” box. In the “Add arguments (optional)” box, type “/S” to have have the task start a basic shutdown command—the same as if you’d clicked the Shut Down button yourself. If you want the command to also force any running applications to close without warning users, type “/S /F” into the “Parameters” box instead. When you’re done, click “OK.”
