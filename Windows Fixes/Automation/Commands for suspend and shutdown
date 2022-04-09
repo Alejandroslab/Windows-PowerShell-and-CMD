@@ -1,0 +1,3 @@
+%windir%\System32\rundll32.exe powrprof.dll,SetSuspendState Standby
+
+%windir%\System32\shutdown.exe -s
