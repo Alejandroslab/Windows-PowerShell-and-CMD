@@ -1,0 +1,4 @@
+When you want to install new windows copy on your machine from usb (rufus)
+you need to select the MBR option(legacy) and not the GPT as some pc have this kind of partition scheme that is old but still used 
+
+If you do not set 'mbr' on rufus then you will not be able to install from usb 
