@@ -1,0 +1,1 @@
+wmic desktopmonitor get screenheight, screenwidth
