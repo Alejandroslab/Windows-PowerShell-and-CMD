@@ -1,0 +1,19 @@
+Virtual local area network (VLAN) tagging requires that the network interface card (NIC) and the router or switch that you use support protocol IEEE 802.1q.
+
+Depending on the NIC, you can set your VLAN ID in Device Manager.  Not all NICs that support VLAN tagging have this option.
+
+Setting your VLAN ID in Device Manager
+
+Note: Log in as the local administrator before continuing.
+
+To open Device Manager:
+
+    Press Windows key + R
+    Type devmgmt.msc
+    Click OK.
+
+    In Device Manager, open Network adapters.
+    Right-click on the NIC and choose Properties.
+    Click the Advanced tab.
+    Scroll down to VLAN ID.
+    Set the ID that you would like the NIC to have and click OK.

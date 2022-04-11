@@ -17,3 +17,12 @@ Back in the “Create Task” window, switch over to the “Actions” tab and c
 
 
 In the “New Action” window, set the “Action” drop-down menu to “Start a program.” Type “shutdown” into the “Program/script” box. In the “Add arguments (optional)” box, type “/S” to have have the task start a basic shutdown command—the same as if you’d clicked the Shut Down button yourself. If you want the command to also force any running applications to close without warning users, type “/S /F” into the “Parameters” box instead. When you’re done, click “OK.”
+
+
+Back in the “Create Task” window, switch over to the “Conditions” tab. Enable the “Start the task only if the computer is idle for” option and set the timing you’d like. Here, we’re setting the task to kick in only if the computer has been idle for 15 minutes when the shut down time arrives. We’re also setting the task to wait up to one hour for that idle time to happen.
+
+You also have two other options to consider here. Enable the “Stop if the computer ceases to be idle” option to stop the task if you start using your PC. And enable the “Restart if the idle state resumes” to have the task begin measuring idle time again when you stop using your PC. We recommend going ahead and enabling both those options.
+
+Next, switch to the “Settings” tab. Here, you can set your task up so that it will run again every so often if it fails to run successfully. This lets the task shut down your PC if you’re up using it for much longer than you expected to be. Enable the “If the task fails, restart every” option and then set your preferences. Here, we’re having the task restart every thirty minutes and we’re letting it try restarting up to three times. When you’re done, click “OK” to create the task.
+
+Note that you will likely be asked to enter your user account password to finish creating the task. And you can now exit Task Scheduler. From this point on, your PC should shut down automatically at whatever time you scheduled—unless you’re using the PC at that time.
