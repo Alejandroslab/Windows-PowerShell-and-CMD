@@ -30,14 +30,22 @@ First shrink your main disk of about 100 mb (the max size the System Reserved mu
 
 Then you must extend the System Reserved partition.
 
+(You can skip this previous part if you will use the Minitool Partition Wizard)
+
+
+
 You cannot do that with Disk Management Widnows built-in funcionality
 
 You must use a third party application. I have tested and use the Minitool Partition Wizard.
 
-With that program you can extend the System Reserved Partition and use the new unallocated space
-as extension
+With that program you can extend the System Reserved Partition and use the new unallocated space as extension
 
-It will require to reboot the pc
+It will require to reboot the pc and will perform the command with cmd before booting as it cannot perform operations on  live system
+
+If you use Minitool Partition Wizard you will be able to extend the reserved partition directly from the application without having to shrink it previously  
+
+
+
 
 Now open your cmd with admin privileges and type.
 
@@ -45,9 +53,14 @@ sfc /scannow
 
 This will look for error and try to repair them
 
+
 after that run:
 
 DISM /Online /Cleanup-Image /RestoreHealth
+
+if you incurr in the "Error 87" check the spelling and check that spaces are before slashes
+
+
 
 Once done proceed with these steps.
 -Press Windows key + R
