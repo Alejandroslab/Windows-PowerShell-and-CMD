@@ -1,0 +1,9 @@
+To run scripts you must change the Execution Policy with this command runned as admin:
+
+Set-ExecutionPolicy RemoteSigned
+
+then press the letter of 'yes to all'
+
+to go back:
+
+Set-ExecutionPolicy Restricted
