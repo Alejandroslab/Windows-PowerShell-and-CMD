@@ -1,6 +1,0 @@
-HyperV is the windows type 1 hypervisor
-
-
-It will create an enviroment in which a vm is installed and then a connection via rdp is provided all out of the box within the application
-
-HyperV Manager can manage instances of the underlying HyperV service when is installed locally but can also manage instances of HyperV that are remotely installed (on a server)
