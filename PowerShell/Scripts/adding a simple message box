@@ -1,0 +1,9 @@
+first we need to load this:
+
+Add-Type -AssemblyName PresentationFramework
+
+then we can run:
+[System.Windows.MessageBox]::Show('Hello')
+
+
+to be sure we can add both lines to our scripts!
