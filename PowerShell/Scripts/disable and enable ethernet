@@ -1,0 +1,17 @@
+first check the name of your adapter. in this case we want ethernet
+
+
+Get-NetAdapter | format-table
+
+
+let's say our adapter has as name 'Ethernet'
+
+to disable it:
+
+Disable-NetAdatper -Name "Ethernet" -Confirm:$false
+
+to enable it:
+
+Enable-NetAdatper -Name "Ethernet" -Confirm:$false
+
+now you can create your shortcuts to run it quickly 
