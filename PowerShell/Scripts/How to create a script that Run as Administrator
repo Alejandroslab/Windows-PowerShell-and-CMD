@@ -14,6 +14,11 @@ e.g.
 
 powershell -f C:\Users\Myuser\Documents\myscript.ps1
 
+if you have spaces in your file path just use the " "
+
+powershell -f "C:\Users\Myuser\Documents\this is my script.ps1"
+
+
 finally after creating this shortuct click right and go to properties,
 click on 'Advanced'
 and check the 'Run as administrator' option
