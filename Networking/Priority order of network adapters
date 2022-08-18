@@ -1,0 +1,35 @@
+Open Settings.
+Click on Network & Internet.
+Click on Status.
+Click the Change Adapter options item.
+
+or just run: ncpa.cpl
+
+    Right-click the network adapter you want to prioritize, and select Properties.
+
+    Select the Internet Protocol Version 4 (TCP/IPv4) item.
+Click the Properties button.
+
+In the "General" tab, click the Advanced button.
+
+Clear the Automatic metric option.
+In the "Interface metric" field assign a priority value for the adapter.Quick Tip: The lower the metric number means higher priority, and a higher number indicates lower priority.
+
+Click the OK button.
+Click the OK button again.
+Click the Close button.
+
+Once you've completed the steps, Windows 10 will prioritize the network traffic depending on your configuration.
+
+The only caveat using the Control Panel experience is that depending on your network setup, you may need to adjust the metric for the Internet Protocol Version 6 (TCP/IPv6) as well, if that's the protocol you're using. (Usually, you will be using the TCP/IPv4 protocol.)
+
+
+At any time, you can revert the changes using the same instructions, but on step No. 9, make sure to check the Automatic metric option.
+
+In powershell
+
+Type the following command to identify the current interface metric and interface index number and press Enter:Get-NetIPInterface
+
+Type the following command to change the priority order of the network adapter and press Enter:Set-NetIPInterface -InterfaceIndex 21 -InterfaceMetric 10In the command, make sure to change the -InterfaceIndex value to reflect the network adapter you want to prioritize and change the -InterfaceMetric value to assign a priority. Also, remember that a lower metric number means higher priority, and a higher metric number means lower priority.
+
+Type the following command to identify the current interface metric and interface index number and press Enter:Set-NetIPInterface -InterfaceIndex 21 -AutomaticMetric enabledIn the command, make sure to change the -InterfaceIndex value with the correct number of the network adapter you want to apply an automatic metric.
