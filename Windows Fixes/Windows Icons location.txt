@@ -1,0 +1,3 @@
+you can find all windows icons under this path:
+
+ C:\Windows\System32\imageres.dll
