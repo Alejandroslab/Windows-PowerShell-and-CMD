@@ -1,0 +1,3 @@
+Get-Date
+
+Set-Date -Date "06/06/2017 14:45"
