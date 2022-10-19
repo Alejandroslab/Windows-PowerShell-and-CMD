@@ -1,0 +1,26 @@
+Start the registry editor (regedit.exe)
+Move to HKEY_CLASSES_ROOT
+From the Edit menu select New -> Key
+Enter a name of '.' and press Enter (don't type the quotes)
+Select the new '.' key
+Right click and select New -> Key
+Enter a name of 'shell' and press Enter (don't type the quotes)
+Select the new 'shell' key
+Right click and select New -> Key
+Enter a name of 'open' and press Enter (don't type the quotes)
+Select the new 'open' key
+Right click and select New -> Key
+Enter a name of 'command' and press Enter (don't type the quotes)
+Select the new 'command' key
+Double click the (Default) value and set "C:\Program Files\Notepad++\notepad++.exe" "%1" (here actually with the "", changing path if you installed notepad++ elsewhere)
+Click OK
+
+
+done!
+You will have 4 new keys (that appear as folders) where only the last one will have the path with quotes 
+
+
+
+
+
+

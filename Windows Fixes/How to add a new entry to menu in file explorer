@@ -1,0 +1,35 @@
+Open registry go to HKEY_CLASSES_ROOT and then to the extension you want to add as a new entry in file explorer menu
+
+from there right click on the extension folder select "New Key" and type
+
+"ShellNew"
+then on the right side of the panel click right and select 'New String'
+type inside 'NullFile' and done!
+
+other way to do it;
+
+To add extensions of your choice to the list: create a file, add the content below, save it as whatever.reg, and run it.
+
+Note: Replace .png with the file extension you want to add and replace whatever with anything you want.
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.png\ShellNew]
+"NullFile"=""
+
+
+
+If you want to add a file as a template for the new item, use
+
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\.html\ShellNew]
+"FileName"="html.html"
+and then place the file (html.html) in:
+
+For your own profile: %Userprofile%\Templates
+For all users: %Allusersprofile%\Templates
+For the whole system: %Systemroot%\ShellNew
+
+
+REMEMBER AT THE MOMENT(OCTOBER 22) THIS TRICK IS NOT WORKING IN WINDOWS 11
