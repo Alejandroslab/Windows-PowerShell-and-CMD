@@ -1,0 +1,111 @@
+-In questo modo ricerca il 2 marzo i voli da Milano a Lima con Iberia (ib)
+
+AN2MARMILLIM/AIB
+
+Dove "an" è fisso, lo slash e "a" che segue sono fissi 
+
+-Per conoscere l'aerolinea più economica l'1 febbraio da milano a Bogotà.
+
+FQDMILBOG/1FEB/R,UP
+
+Dove FQD, E R,UP e slash sono fissi
+
+CLASSI
+
+Air Europa : P, M
+Iberia: P, O, (Q solo andata)
+Klm : LR
+Air France: LV,LR
+Tap: K,L
+Copa: L
+Avianca: S
+Lan: X, O
+Gol: B
+
+Si raddoppia la lettera per due voli da selezionare.
+
+Combinazioni classi:
+Per Peru: Air Europa (PP o MP), Iberia(PP,OO), Lan(XX,OO), Klm(LR,LN), Air France(LR,LV), Tap+Copa(UUL)
+
+Per Ecuador: Klm
+
+Per Salvador: Klm (LV), Klm+Copa (LVT,LRT,LNL)
+(Solo 1 valigia da 23kg)
+
+Per Bolivia: Iberia+ Gol (PP,QQ,BB), Avianca, Air Europa, Lan, Klm+ Copa(LNL)
+Klm+Avianca(SRL)
+(Cercare Aeroporto di Santa Cruz che è VVI VIRU VIRU)
+
+
+Per Santo Domingo: Air Europa(PP), iberia
+
+Per Colombia: Iberia
+
+Per Brasile : Iberia 
+
+Per Venezuela: Iberia 
+
+Per il ritorno si utilizzano le stesse classi al contrario. Ad ogni compagnia corrisponde una lettera.
+
+
+-Per selezionare i voli di ritorno a 30 giorni
+
+ACR30
+
+(Tariffa etnica, tariffa pubblica; il minimo di giorni per ottenere un buon prezzo al ritorno è pari a 30)
+
+-Per visualizzare il prezzo una volta selezionato anche il ritorno
+
+FXA 
+FXL(per prezzo più basso, controllare però se è disponibile)
+
+Il prezzo finale va calcolato tenendo conto della commissione dell'agenzia (in questo caso vanno sommati 30-40€ al prezzo finale
+
+I bambini con età inferiore a 2 anni non sono passeggeri. Sono inclusi nel biglietto di un adulto.
+I bambini con età compresa tra 2 e 11 anni invece sono passeggeri paganti.
+
+-Per fare prenotazione (non ancora vincolante)
+Inserire i nomi
+
+NM1COGNOME1COGNOME2/NOME
+
+Per bambino con età inferiore a 2 anni:
+NM1COGNOME1COGNOME2/NOME(INFCOGNOMEBIMBO/NOMEBIMBO/DATANASCITA)
+
+Per bambino con età tra 2 e 11 anni
+NM1COGNOME1COGNOME2/NOME(CHD/30MAR04)
+
+-Terminare prenotazione (non vincolante)
+AP (invio)
+TKTL28OCT  (invio, inserire 2 giorni prima della data di partenza oppure il giorno stesso)
+RFMIONOME (quindi RFALEJANDRO)
+APM --320099049
+RC --780
+FXB 
+TQT
+ER
+ER
+ER
+
+Per quotare prezzo klm e air france
+QE/MILIG3260/99C30
+IR
+
+Una volta finito si fa TQT per ottenere il prezzo non FXB
+
+Le prenotazioni durano 3 giorni
+
+-Una volta ricevuto il pagamento
+
+AP
+TKTL28OCT
+RFNOME
+ER
+QE/MILIG/3260/46C47
+APM - 328498484 (numero di telefono della persona a cui si è venduto il biglietto)
+RC --1300 (prezzo a cui si è venduto il biglietto)
+
+-Per eliminare prenotazione 
+XI
+RFMIONOME
+ER

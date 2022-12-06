@@ -1,0 +1,11 @@
+Ctrl+h
+
+Enable Regular expressions
+
+on replace just type:
+
+'$0'
+
+this will add the quotes '' to the word with $0 (remember bash) that is the word selected 
+
+done!

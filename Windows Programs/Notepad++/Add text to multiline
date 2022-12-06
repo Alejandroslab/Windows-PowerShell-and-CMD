@@ -1,0 +1,10 @@
+ctrl + h type in find what the expression '$' without quotes 
+
+in 'Search mode' select also 'Regular expression' 
+
+then in replace with 
+type the text you want to add at the end of every single line (you must also add the space as it will not be added)
+
+
+
+

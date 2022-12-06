@@ -1,0 +1,15 @@
+SAS syntax is not enabled by default you have to download an xml file from github:
+
+https://github.com/cjdinger/sas-npp
+
+This is referenced in the SAS official page
+
+Then in Notepad++ go to Language>User Defined Language>Define Your Language
+
+Click on import and import the Sas xml
+
+Done!
+
+The only downside is that you have to leave the default style (you cannot change the style to Solarized Dark :( )
+because you will have some color problems
+

@@ -1,0 +1,17 @@
+Sometimes this error may appear when trying to install other software like Visio
+
+Something like "can't install 32 bit version of Office because we found the following 64-bit programs on your pc.."
+
+Press widnows + r
+
+type 'installer'
+
+From the view menu clcik add columns then Choose columns
+
+Check the Subject column and click ok
+
+Now sort the results by subject and locate "Office 16 Click to Run Extensibilty component"
+
+Right click and uninstall
+
+DONE!
