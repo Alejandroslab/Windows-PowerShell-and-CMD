@@ -6,3 +6,7 @@ like:
 'notepad' will open notepad
 
 'cmd' will open command prompt
+
+ncpa.cpl will open newtork NIC settings
+
+taskmgr.exe will open the task manager 
