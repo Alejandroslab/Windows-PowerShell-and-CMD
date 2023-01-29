@@ -1,0 +1,8 @@
+you can install applications in any drive you want
+
+a convenient way to do that is to keep the same structure of "Program Files/.." 
+and just change the drive letter to the drvie we want
+
+this is useful when we are running out of spce but we want to install something more
+
+just be careful if your software will look for external dependencies like Program Data etc it may not work well unless it will not automatically point to C drive for program data but that is not always true
