@@ -1,0 +1,14 @@
+not that easy 
+
+if you want to format the hd then you will discover that no tool is able to format an HFS drive in windows....
+
+
+2 solutions
+
+1 - disconnect the hard drive and format it in another way
+
+
+2 - Plug in a Fedora live usb and then format the drive from ther with the pre installed app "disk mangement" or something simolar 
+
+if you want to access data without formatting you must use Paragon software
+if you want to convert it in NTFS preserving data is not straightforward 
