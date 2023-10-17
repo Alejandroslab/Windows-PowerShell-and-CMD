@@ -1,0 +1,6 @@
+The domain controller is the main node that manages the AD, Active Directory
+
+You can demote a domain controller that is unregister a windwos server pc as a domain controller and convert it to a normal plain server
+
+On the contrary you can PROMOTE a plain windows server to a domain controller.
+In this case you will need to specify the domain and the reboot the server/machine.
