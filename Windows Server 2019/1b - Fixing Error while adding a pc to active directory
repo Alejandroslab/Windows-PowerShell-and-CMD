@@ -32,3 +32,22 @@ net stop dnscache
 To start it again, type in:
 
 net start dnscache
+____
+
+finally sometimes after the AD installation it may also happen that the domain will not append automatically to the server hostname 
+
+Therefore you need to do that manually:
+
+This can be done running: sysdm.cpl
+Then click on Change> More
+Enter the DNS suffix in the appropriate field (circled in red above). The system will prompt for a reboot. Reboot the system when possible.
+
+Check the DNS Manager console when the system comes back up to validate that the domain controller's name server records have the correct DNS suffix.
+
+
+Additional Information:
+
+A domain controller with a missing or incorrect primary DNS suffix will not register its DNS records properly, which can result in a litany of Active Directory issues, including failure of clients to join the domain, replication failure, and Group Policy processing failure.
+
+
+finally reboot the server
