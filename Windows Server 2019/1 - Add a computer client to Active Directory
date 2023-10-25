@@ -36,6 +36,9 @@ Click the “Change settings” link under “Computer name, domain, and workgro
 
 Click the “Computer Name” tab.
 
+(to skip all this steps you may also run the command: sysdm.cpl)
+
+
 Click the “Change . . . “ button.
 
 Click the “Domain” radio button and type the name of your Windows domain in the domain field.
