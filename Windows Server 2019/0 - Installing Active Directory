@@ -44,7 +44,7 @@ ad.example.com
 
 where ad stands for 'active directory' but you can use like: corp.example.com, group.example.com
 
-So this will be the primary dns suffix that is the part that will be attached to the client hostname and will form the FQDN (Fully Qualified Domain Name) also known in Windows as Full Computer Name
+So this will be the primary dns suffix (as usually the DNS name corresponds to the Domain name as when AD is installed in Windows a DNS server is also installed) that is the part that will be attached to the client hostname and will form the FQDN (Fully Qualified Domain Name) also known in Windows as Full Computer Name
 
 therefore if I have my client with hostname 'mypc' then following the example before stated the FQDN will be:
 
