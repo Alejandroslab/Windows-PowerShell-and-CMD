@@ -1,5 +1,30 @@
 Log in to the computer in question with a local administrator account.
 
+REMEMBER
+That when the domain controller is set up this creates also a DNS server inside the domain controller host.
+This means that in order to reach the domain the clients must be connected to the domain controller's DNS.
+
+Hence to do that you must first pointing the client to the ip that corresponds to the domain controller's DNS.
+
+Operatively to do that:
+open your Network connections (run ncpa.cpl)
+select the connection thas is on the same subnet of the domain controller (if you have set up a bridge connection you must select the bridge connection)
+Right click>Properties
+Select TCP/IPv4>Properties
+Then check the option 'Use the following DNS server addresses'
+In the 'Preferred DNS server' field insert the domain controller's IP
+In the 'Alternate DNS server' field you can insert another DNS. As this is a failover DNS you may want to indicate a public DNS (like the google ones 8.8.8.8) but you can also insert the IP of another DNS that you own
+(this is the case if you have a DNS inside the router (as this is the most common case) and you can indicate the IP of the router).
+
+click ok and done!
+
+finally check that you have intenet connection with a:
+
+ping debian.net
+___
+
+
+
 Click Start and right-click “Computer.”
 
 Click “Properties.”
