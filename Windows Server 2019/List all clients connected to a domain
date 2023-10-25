@@ -1,0 +1,7 @@
+Run in powershell:
+
+
+Get-ADComputer -Filter *
+
+
+This command gets all computer accounts.
