@@ -1,13 +1,12 @@
 Open Server Manager
 
-d choose “Add Roles and Features“. This will open the “Add Roles and Features Wizard” which ushers us to the part where we install Active Directory Domain Services.
+Choose “Add Roles and Features“. This will open the “Add Roles and Features Wizard” which ushers us to the part where we install Active Directory Domain Services.
 
  Click on next.
 
  On the “Installation Type”, leave “Role-based or feature-based installation” radio button selected and click on next.
 
- On this stage titled “Select destination server“, select the server you are to install AD DS and click next. I am going to choose my local server.
-
+ On this stage titled “Select destination server“, select the server you are to install AD DS and click next. This beacuase you can install the AD even on a remote host.
 
  The previous step will lead you to the next page as shown below. Here, you will see many options with square checklist box against them. As you can guess, we are going to choose “Active Directory Domain Services“.
 
@@ -21,12 +20,52 @@ d choose “Add Roles and Features“. This will open the “Add Roles and Featu
  After you have finished installing Active Directory Domain Services, the last step is to promote it to a Domain Controller. Go over to Server Manager where you wIill notice a yellow exclamation notification beside the “Manage” tab as shown below. Click on it and choose “Promote this server to a domain controller“
 
 
-A new window titled “Active Directory Domain Services Configuration Wizard” as shown below will pop up. We are going to Add a new Forest but in case you would wish to do something different in this Step, you are free to choose the other options. Add your organization’s root domain name. Click on “Next” after you pick your choice.
+PROMOTE AS DOMAIN CONTROLLER
+
+A new window titled “Active Directory Domain Services Configuration Wizard” as shown below will pop up. 
+We are going to Add a new Forest but in case you would wish to do something different in this Step, you are free to choose the other options. 
+REMEMBER a forest is a set of trees and a tree is a set of domains.
+This is useful like in a coroporation that you have multiple departements (for domains)
+And when is set up in different countries (for trees).
+
+the forest therefore is the root domain that is the initial root domain.
+You can use a domain with any suffix like
+
+example.com
+
+___________________
+
+Some rules to not have troubles with the DNS:
+do not use 'example.com' if you do not want you domain to be public (you will have to set up the DNS delegation first etc)
+
+it is suggested to use something similar:
+
+ad.example.com
+
+where ad stands for 'active directory' but you can use like: corp.example.com, group.example.com
+
+So this will be the primary dns suffix that is the part that will be attached to the client hostname and will form the FQDN (Fully Qualified Domain Name)
+
+therefore if I have my client with hostname 'mypc' then following the example before stated the FQDN will be:
+
+mypc.ad.example.com
+
+If I would have used the 'example.com' suffix only then the FQDN would have been:
+
+mypc.example.com 
+
+_______
+
+
+Now:
+Add your organization’s root domain name. Click on “Next” after you pick your choice.
 
 
 On the Domain Controller options, leave the defaults checked and input your password. After that, click “Next“.
 
-On the next page ( DNS Options ), you will probably see an error on top with the words “A delegation for this DNS server cannot be created because the authoritative parent zone nameserver cannot be found”. Ignore it and click “Next“
+On the next page ( DNS Options ), you will probably see an error on top with the words “A delegation for this DNS server cannot be created because the authoritative parent zone nameserver cannot be found”. 
+Ignore it (as this must be done if you want your domain to be available in internet)
+click “Next“
 
 On the next page, leave the NetBIOS domain name as default or you can change it as long as it is not longer than 15 characters. Click “Next” after that.
 
