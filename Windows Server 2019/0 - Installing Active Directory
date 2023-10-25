@@ -44,7 +44,7 @@ ad.example.com
 
 where ad stands for 'active directory' but you can use like: corp.example.com, group.example.com
 
-So this will be the primary dns suffix that is the part that will be attached to the client hostname and will form the FQDN (Fully Qualified Domain Name)
+So this will be the primary dns suffix that is the part that will be attached to the client hostname and will form the FQDN (Fully Qualified Domain Name) also known in Windows as Full Computer Name
 
 therefore if I have my client with hostname 'mypc' then following the example before stated the FQDN will be:
 
@@ -54,6 +54,7 @@ If I would have used the 'example.com' suffix only then the FQDN would have been
 
 mypc.example.com 
 
+You can see that the domain name is appended to the hostname (or Computer Name in Windows)
 _______
 
 
