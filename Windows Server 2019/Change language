@@ -1,0 +1,7 @@
+Download a language pack 
+
+Go to the ISO contents and navigate to \x64\langpacks. 
+Then Copy your language files and paste them to the folder of your choice.
+
+Go to Start menu, type lpksetup.exe and click on the result. 
+This will open a new window for installing/uninstalling display languages.
