@@ -1,0 +1,14 @@
+Whenever you log in with Microsoft 365 credentials you will get the error:
+
+"This microsoft account does not exist" or something similar 
+
+This happens because you do not have a microsoft acount whenever you purchase a Microoft 365 Business license
+
+This is involved with Azure 
+
+With Microsoft 365 Business you will get a very basic Azure AD subscription thta will allow you to register devices but not to join PC 
+
+So in order to be able to log in with you credentials you must create another microsoft free account
+that can also be identifical to the Microsoft 365 Business account in term of email
+
+Alternatively you should purchase an Azure subscription 
