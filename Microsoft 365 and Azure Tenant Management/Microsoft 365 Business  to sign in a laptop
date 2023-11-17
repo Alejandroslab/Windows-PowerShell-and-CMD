@@ -6,9 +6,11 @@ This happens because you do not have a microsoft acount whenever you purchase a 
 
 This is involved with Azure 
 
-With Microsoft 365 Business you will get a very basic Azure AD subscription thta will allow you to register devices but not to join PC 
+With Microsoft 365 Business Standard you will get a very basic Azure AD subscription thta will allow you to register devices but not to join PC 
+That subscriptio provides cloud-based services like email, file storage, etc but they are not tied to a local domain controller- 
 
 So in order to be able to log in with you credentials you must create another microsoft free account
 that can also be identifical to the Microsoft 365 Business account in term of email
 
-Alternatively you should purchase an Azure AD (AAD) subscription 
+Alternatively you should purchase an Azure AD (AAD) subscription to be more precise the Azure AD Connect 
+that is included in Microsoft 365 Business Premium or Azure AD Plan 1 or Plan 2
