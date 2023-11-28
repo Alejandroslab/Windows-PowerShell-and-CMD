@@ -1,0 +1,7 @@
+you can use Windows Server to manage a domain that is exposed to the Internet, 
+but there are some requirements and precautions to follow. To manage an internet-facing domain, you need to:
+
+Register your domain name with an authorized provider and set up DNS records to point to your server
+
+Install and configure Active Directory, the directory service that stores and manages domain resources, 
+such as user accounts, computers, shared folders, printers, and so on
