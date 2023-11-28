@@ -1,0 +1,5 @@
+Run this:
+
+Import-module ActiveDirectory
+Get-ADForest | Format-List Name,Domains
+
