@@ -1,0 +1,11 @@
+To add a TXT record for SPF in Windows Server, you need to access the DNS Manager and create a new record with the value of your SPF policy. Here are the steps to follow:
+
+Log in to your Windows Server and open the DNS Manager from the Administrative Tools.
+Select the Forward Lookup Zone and choose the domain name that you want to add the SPF record to.
+Right-click on the record list and select Other New Records… from the menu.
+Select the Text (TXT) record type and click the Create Record… button.
+In the Record Name field, leave it blank or enter @ to indicate the root domain.
+In the Text field, enter the value of your SPF policy, such as v=spf1 include:_spf.google.com -all. This value specifies the servers and domains that are authorized to send email for your domain and the action to take for messages that do not match the policy. You can use this tool to generate your SPF policy based on your email providers and settings.
+Click the OK button and then the Done button to save the record.
+Wait for the DNS changes to propagate, which may take up to 48 hours.
+You can verify your SPF record by using this tool or [this tool]. For more information about SPF and how to set it up in Windows Server, you can refer to this article or this article.
