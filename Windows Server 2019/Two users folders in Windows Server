@@ -2,3 +2,14 @@ There are several possible reasons why you have access to two folders in users i
 One reason is that you have logged on to the server with different credentials, such as a local account and a domain account. 
 This will create two profiles, 
 one with the format %username% and the other with the format %username%.%userdomain% or %username%.%computername%
+
+This will happen when you create a domain controller (promote the user to a domain controller) and then demote it 
+and recreate a domain controller. 
+This will result in the creation of 2 users in the windows C:\\Users\
+
+
+
+
+To fix this issue, you may need to delete the duplicate or unwanted user folder, but make sure you back up any important files or settings before doing so.
+You may also need to transfer or update the user’s profile settings, such as desktop, favorites, documents, etc. 
+You can use the User Profile Service or the User State Migration Tool to do this
