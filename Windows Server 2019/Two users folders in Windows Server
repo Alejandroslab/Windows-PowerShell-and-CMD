@@ -1,0 +1,4 @@
+There are several possible reasons why you have access to two folders in users in Windows Server. 
+One reason is that you have logged on to the server with different credentials, such as a local account and a domain account. 
+This will create two profiles, 
+one with the format %username% and the other with the format %username%.%userdomain% or %username%.%computername%
