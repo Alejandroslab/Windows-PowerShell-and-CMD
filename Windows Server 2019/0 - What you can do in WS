@@ -1,3 +1,7 @@
 You can install several components depending on what you need like:
 
-SMTP server and so on 
+SMTP server 
+DNS server
+DHCP server
+
+and so on
