@@ -1,0 +1,34 @@
+The EFI partition is the partition where all the EFI entries are located (e.g. when you perform a dual boot os with linux you will find there the .efi files 
+for the linux OS)
+
+Open cmd as administrator
+
+diskpart
+list disk
+
+(select the disk where you know the EFI is located)
+
+select disk 0
+list partition
+select partition 1
+assign letter=b
+exit
+
+you can also just use 'assign' without any letter. It will take the first drive letter available
+
+Now in order to see the content in Windows Explorer:
+kill the File Explorer process and start it with administrative privileges (remember that you have open cmd as administrator therefore you can run 
+these commands):
+
+taskkill /im explorer.exe /f
+explorer.exe
+
+Now go to file explorer and try to open the drive.
+
+If you cannot for security reason you can use a workaround
+
+open notepad.exe as administrator 
+
+from there go to 'open' as you would need to open a file
+
+From that windows you will be able to navigate the EFI partition. You can  open folders and also delete files
