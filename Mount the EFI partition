@@ -32,3 +32,13 @@ open notepad.exe as administrator
 from there go to 'open' as you would need to open a file
 
 From that windows you will be able to navigate the EFI partition. You can  open folders and also delete files
+
+Finally you may want to unmount the EFI partition. You can do that performing these steps:
+
+    Run diskpart.
+    Enter list volume and press Enter.
+    Find the volume you'd like to hide and memorize its number.
+    Enter select volume [number] where [number] is the number you memorized.
+    Enter remove and press Enter.
+
+DONE!
