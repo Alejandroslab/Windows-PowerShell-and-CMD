@@ -1,0 +1,29 @@
+On the PC hosting the remote desktop session (running Windows Pro or better), 
+
+run the following command, replacing the example email address with your Microsoft Account email address 
+that you use to login to the computer. 
+You can just put this directly into your Run box or type it into a Command Prompt terminal (no need to be Administrator):
+
+runas /u:MicrosoftAccount\username@example.com winver
+
+Type the command exactly as shown, only changing the email address that comes after the \ mark.
+
+This command runs the “winver” program under the credentials of the user account specified. 
+It sounds (and is) pretty simple, but what it does in the background is caches your Microsoft Account credentials. 
+Since your local user account had no password, it wasn’t eligible for RDP use even if it has appropriate permissions otherwise.
+
+When you press Enter, you’ll be prompted for your password, which for security will not show while you type it, 
+but go ahead and key it in and press Enter.
+
+After supplying the password and pressing Enter, you’ll know it worked if you see the About Windows dialog box open. 
+Go ahead and close it and the terminal window — you’re all done.
+
+At this point, you should be able to connect to the remote computer 
+using the same account & password you just used to run the above command. 
+(REMEMBER: You may have a Microsoft Business account
+and also a Microsoft Account with the same username but different passwords! Usually the Microsoft Business Account password will not let you
+sign in as an user).
+When connecting, enter your username the same way, with the MicrosoftAccount\ preceding it. 
+If it doesn’t connect, be sure to check your connection type.
+
+DONE!
