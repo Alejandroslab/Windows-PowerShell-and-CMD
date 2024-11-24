@@ -1,0 +1,39 @@
+You can download an image from Microsoft
+
+You can install with vmware fusion on mac 
+
+If you are asked for network remmeber that you must install the vmware drivers (but you can do that after the instllation).
+
+If you cannot proceed then 
+
+Press shift+f10 then at cmd
+
+OOBE\BYPASSNRO
+
+Vm will reset and it wont ask you network connection then you can install vmtools for the vmxnet driver.
+
+If you do not find the exe but only the .ps1 (powershell ) files you must run with powershell (with administrative privileges)
+Go to the driver drive:
+
+cd D:\
+
+then enable the remote signed script with this command
+
+Set-ExecutionPolicy RemoteSigned 
+
+
+dir 
+
+check that you have the .exe or .ps1 files and run
+
+.\setup.exe
+or
+
+.\setup.ps1
+
+depending of which file you have in the D:\ directory.
+
+After installation, the program will start, and you can close the command terminal and proceed with the installation process as prompted by the popup window.
+
+After that you can continue installation process.
+
